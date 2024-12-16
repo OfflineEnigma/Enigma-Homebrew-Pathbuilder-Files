@@ -1,0 +1,1783 @@
+{
+   "customPackID":"7970224e-6b2f-4cb1-902e-a23fdfae9c5f",
+   "customPackName":"Retinues-of-the-Roaming-Hero-V1_0_0",
+   "listCustomFeats":[
+      {
+         "id":"e1758a40-1d63-49db-a1c8-8d27d584ec08",
+         "name":"Additional Retainer",
+         "level":8,
+         "selectable":20,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914"
+         ],
+         "textDescription":"<b>Prerequisites</b> Leader Dedication; +3 Charisma<br><br>Another retainer joins your travels. They are a novice retainer that has the minion trait. See Multiple Retainers for rules on how having multiple retainers works.<br><br><b>Special</b> You can select this feat more than once, gaining an additional retainer each time, to a maximum number of retainers equal to your Charisma modifier from all sources.",
+         "traits":"Archetype, 3rd Party",
+         "src":"RRH",
+         "hashMapRequiredAbilityScores":{
+            "5":16
+         },
+         "databaseID":1,
+         "timestamp":"1734216165869"
+      },
+      {
+         "id":"8937a2f4-d4e8-4bbe-9d75-678ae35fe1a6",
+         "name":"Back-To-Back Reload",
+         "level":8,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>You and your retainer act in sync. Your retainer gains the Back-To-Back Reload Team-Up! benefit.<br><br><b>Team-Up! Benefit–Back-To-Back Reload</b> The retainer works with you to have one person reload their weapon while the other fires theirs. You Strike and your retainer Interacts to reload, or your retainer Strikes and you Interact to reload or use your Slinger’s Reload. If the retainer has a slinger’s reload, they can use that action instead of Interacting to reload. You must be adjacent to each other to benefit from this ability.",
+         "traits":"Gunslinger, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734216956433"
+      },
+      {
+         "id":"8efb92c1-e4f5-4e70-b487-525dae1d0e1c",
+         "name":"Banner Bearer",
+         "level":8,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>Your retainer carries a banner with your symbol, raising it aloft to lift spirits. While carrying your banner, all allied creatures (including the retainer) within a 30-foot emanation of the retainer gain a +1 circumstance bonus to Will saves and DCs against fear effects. If the banner is destroyed, allies within the emanation become frightened 1.",
+         "traits":"Aura, Champion, Emotion, Exemplar, Fighter, Mental, Visual, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734217235679"
+      },
+      {
+         "id":"7fed72f7-2cbc-47ba-b7ca-a49ca896eac5",
+         "name":"Biggest Supporter",
+         "level":8,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>Your retainer cheers you on and emphasizes your triumphs in combat. They gain the Cheer Exemplar reaction, and they gain an additional reaction on their turn which can only be used to take the Cheer Exemplar reaction.",
+         "traits":"Exemplar, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734217265942",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"dbba8a62-6686-4347-98af-ed11514bf7ec",
+               "int0":1
+            }
+         ]
+      },
+      {
+         "id":"98c864ba-4dc9-47e4-a59d-1d9e64463888",
+         "name":"Black Market Contact",
+         "level":8,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>Your retainer has various underworld contacts which they can leverage to your benefit. Your retainer gains the Additional Lore skill feat for Underworld Lore, as well as the Criminal Connections and Underground Network skill feats.",
+         "traits":"Rogue, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734217290779"
+      },
+      {
+         "id":"afc0eeb5-a68b-4392-8d2b-cfbe86e4ce68",
+         "name":"Bloodied Cohort Retainers",
+         "level":10,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914",
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23"
+         ],
+         "textDescription":"<b>Prerequisites</b> Leader Dedication<br><br>Your retainers have seen combat and come out the other side stronger and more skilled. Select an advanced profession for each of your retainers; they gain that profession in addition to their novice profession. Choose the profession separately for each retainer, including any retainer that becomes bloodied after gaining this feat.",
+         "traits":"Archetype, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734216265331",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"6ebe1292-9835-429a-b4a6-878d566d0ad5",
+               "int0":1
+            },
+            {
+               "effectType":13,
+               "string0":"7b3574a1-1b54-49d2-b83b-dba85fa340f4",
+               "int0":1
+            }
+         ]
+      },
+      {
+         "id":"4c0ccd75-e13b-442e-83c4-9a0d3da2dad0",
+         "name":"Bloodied Retainer",
+         "level":10,
+         "reqFeats":[
+            "226b7e38-b0f5-4148-ad2d-fee2541ca55c||04240af6-7241-4970-b2a7-15126432bb23||e0167374-3dfb-4093-8552-21e228ddc8f1"
+         ],
+         "textDescription":"<b>Prerequisites</b> Leadership<br><br>Your retainer has seen combat and come out the other side stronger and more skilled. Select an advanced profession; your retainer gains that profession in addition to their novice profession. ",
+         "traits":"Uncommon, Champion, Cleric, Exemplar, Fighter, Gunslinger, Inquisitor, Investigator, Magus, Oracle, Ranger, Rogue, Sorcerer, Swashbuckler, Thaumaturge, Wizard, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734225360211",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"6ebe1292-9835-429a-b4a6-878d566d0ad5",
+               "int0":1
+            },
+            {
+               "effectType":13,
+               "string0":"7b3574a1-1b54-49d2-b83b-dba85fa340f4",
+               "int0":1
+            }
+         ]
+      },
+      {
+         "id":"2ba0ee6e-fb74-42c8-973b-d0fd44c1e1d4",
+         "name":"Bloodied Retainer (Homebrew Archetypes)",
+         "level":8,
+         "reqFeats":[
+            "226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23",
+            "b4e7fe41-9405-433b-8f36-154eecc00d2a||192e446b-b744-4940-bfd4-d99f73bf5db3||d5fa962b-27c4-449a-81c2-a9e4c251f932||e3535863-842e-4c02-8cc3-5273a09ad8f3||e47f2aa9-c321-4cb8-af2c-5e633ff28f6a||b95a87e4-e32d-4487-91c5-1a546e7c207e||5cb7e1ea-c9d4-4027-b486-05d6a10695b6||6749393f-85d8-469b-8050-2b3fed668804||ad936e5b-9e7e-491f-b7fd-53718577f060"
+         ],
+         "textDescription":"<b>Prerequisites</b> Leadership<br><br>Your retainer has seen combat and come out the other side stronger and more skilled. Select an advanced profession; your retainer gains that profession in addition to their novice profession. ",
+         "traits":"Uncommon, Archetype, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734225360212",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"6ebe1292-9835-429a-b4a6-878d566d0ad5",
+               "int0":1
+            },
+            {
+               "effectType":13,
+               "string0":"7b3574a1-1b54-49d2-b83b-dba85fa340f4",
+               "int0":1
+            }
+         ]
+      },
+      {
+         "id":"80363053-fe14-41a5-a39c-8ecbe02d5342",
+         "name":"Bloodied Retainer (Official Archetypes)",
+         "level":10,
+         "reqFeats":[
+            "ARCHETYPE_CITY AGENT_City Agent Dedication||ARCHETYPE_ALERTEGO_Alter Ego Dedication||ARCHETYPE_Archeologist Dedication||ARCHETYPE_Captivator Dedication||ARCHETYPE_CELEBRITY_Celebrity Dedication||ARCHETYPE_EDGEWATCH DETECTIVE_Edgewatch Detective Dedication||ARCHETYPE_Exorcist Dedication||ARCHETYPE_Firebrand Braggart Dedication||ARCHETYPE_GLADIATOR_Gladiator Dedication||ARCHETYPE_MARSHAL_Marshal Dedication||ARCHETYPE_CHIME RINGER_Chime-Ringer Dedication||ARCHETYPE_Guild Agent Dedication||ARCHETYPE_PIRATE_Pirate Dedication||ARCHETYPE_RITUALIST_Ritualist Dedication||ARCHETYPE_SENESCHAL_Seneschal Witch Dedication||ARCHETYPE_Shieldmarshal Dedication||ARCHETYPE_Sniping Duo Dedication||ARCHETYPE_STARLIT_SENTINEL_Starlit Sentinel Dedication||ARCHETYPE_VIGILANTE_Vigilante Dedication||ARCHETYPE_VIKING_Viking Dedication||ARCHETYPE_Zephyr Guard Dedication||ARCHETYPE_Hellknight Dedication||ARCHETYPE_Knight Vigilant||ARCHETYPE_Scrollmaster Dedication||ARCHETYPE_Spellmaster Dedication||ARCHETYPE_Swordmaster Dedication||ARCHETYPE_GOLDEN LEAGUE XUN_Golden League Xun Dedication",
+            "04240af6-7241-4970-b2a7-15126432bb23||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1"
+         ],
+         "textDescription":"<b>Prerequisites</b> Leadership<br><br>Your retainer has seen combat and come out the other side stronger and more skilled. Select an advanced profession; your retainer gains that profession in addition to their novice profession. ",
+         "traits":"Uncommon, Archetype, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734225360213",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"6ebe1292-9835-429a-b4a6-878d566d0ad5",
+               "int0":1
+            },
+            {
+               "effectType":13,
+               "string0":"7b3574a1-1b54-49d2-b83b-dba85fa340f4",
+               "int0":1
+            }
+         ]
+      },
+      {
+         "id":"c10d55cf-5856-4f82-9edf-afbb2b29eb4b",
+         "name":"Cascading Retainer Strikes",
+         "level":10,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>You teach your retainer to flow between strike and spell in the heat of battle. When your retainer successfully Strikes a creature with an unarmed or weapon attack, they gain a +1 circumstance bonus to their next spell attack roll before the end of their next turn. Similarly, if they successfully hit a creature with a spell attack, they gain a +1 circumstance bonus to their next unarmed or weapon attack roll before the end of their next turn.",
+         "traits":"Magus, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734218113813"
+      },
+      {
+         "id":"7270779c-6b8f-409d-abdf-6475185df9c9",
+         "name":"Champion’s Squire",
+         "level":8,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>Your retainer assists you in the handling and aiding you with your equipment. They gain the Armor Assist and Quick Repair skill feats; they automatically succeed the check to assist you using Armor Assist. Additionally, they gain a +2 circumstance bonus to checks to Aid you on skill checks.",
+         "traits":"Champion, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734217341411"
+      },
+      {
+         "id":"2651eced-e63e-42b5-a700-4b52abeba564",
+         "name":"Channel Bloodmight",
+         "level":10,
+         "action":-1,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>You channel some of your sorcerous might to your retainer’s next attack. If your next action is to cast a bloodline spell or sorcerous gift spell using a spell slot and your retainer is within 30 feet of you, your retainer gains a status bonus to the damage of their next Strike or spell equal to the spell’s rank. This bonus lasts until they make a Strike or cast a damaging spell or until the end of your next turn, whichever comes first.",
+         "traits":"Sorcerer, Spellshape, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734218151834"
+      },
+      {
+         "id":"db0f54ed-8c24-4c7d-8f57-ae9a6ac5f1fb",
+         "name":"Chronicler of Legends",
+         "level":8,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>Your retainer follows you around as both an ally and a chronicler, recording your exploits for all to know. They gain the Additional Lore skill feat for either Scribing Lore or a lore skill related to your character (such as Nahoa Lore). When you perform a skill check related to your Epithets, they can always Aid you using one of these lores; when they do so, they automatically improve the result of the skill check to Aid by one degree of success.",
+         "traits":"Uncommon, Exemplar, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734217382045"
+      },
+      {
+         "id":"9892f7ee-8509-4a39-8623-b7b45921fb78",
+         "name":"Cohort Command",
+         "level":18,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914",
+            "8fa9eec5-e33b-4b31-adab-00249d13355a||19371278-8916-4510-a9d4-6dfc745956bf||0402355c-e0c9-4e6e-8e5b-31a7a9e6e6f8||948ca635-83d7-4a80-b4f4-e54e19f481ea"
+         ],
+         "textDescription":"<b>Prerequisites</b> Cohort Independence; you have multiple retainers<br><br>You can have up to two retainers active at once. However, when you do, it’s slightly more difficult to Command them. If you don’t Command either of your retainers, one of the two (your choice) can still use 1 action on your turn to Stride or Strike, per Cohort Independence, but not both. When you Command a retainer, either choose one of the retainers to take 2 actions, as normal, or else each companion can take 1 action to Stride or Strike. Either way, you can’t Command a retainer to make either companion act again until your next turn.<br><br><b>Special</b> You can have a maximum of two retainers active at once, either from Cohort Command or by granting an ally one of your retainers through Lend Retainer.",
+         "traits":"Uncommon, Archetype, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734216577898"
+      },
+      {
+         "id":"948ca635-83d7-4a80-b4f4-e54e19f481ea",
+         "name":"Cohort Independence",
+         "level":8,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914"
+         ],
+         "textDescription":"<b>Prerequisites</b> Leader Dedication<br><br>Your retainers have trained enough to act more independently in combat. During an encounter, even if you don’t use the Command a Minion action, your active retainer can still use 1 action on your turn to either Stride or Strike. Additionally, you can spend 2 actions to Command a Minion instead of 1 when commanding your active retainer. If you do, your active retainer uses an additional action.",
+         "traits":"Archetype, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734216007891"
+      },
+      {
+         "id":"0f208be9-d559-4ceb-8629-db18b15c5bd2",
+         "name":"Collective Judgment",
+         "level":10,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>You extend the blessings of your divine judgment to your retainers. When you mark a target for Judgment, your retainer gains the action’s benefits as well.",
+         "traits":"Inquisitor, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734218174330"
+      },
+      {
+         "id":"0382cb64-70f0-4bbf-aedf-2a968158dbe7",
+         "name":"Crew Lieutenant",
+         "level":10,
+         "reqFeats":[
+            "948ca635-83d7-4a80-b4f4-e54e19f481ea||8fa9eec5-e33b-4b31-adab-00249d13355a||19371278-8916-4510-a9d4-6dfc745956bf||0402355c-e0c9-4e6e-8e5b-31a7a9e6e6f8",
+            "7f76a112-f30c-4989-b796-8448b49b6fd0||320a078c-5b9b-45f0-b746-feda935d264e||c272fe58-38d9-466e-a19b-250871e65b35"
+         ],
+         "textDescription":"<b>Prerequisites</b> Retainer Independence or Cohort Independence; Crew Leader<br><br>You can nominate your retainer to act as a lieutenant for your crew, allowing them to issue commands and keep them in line. During your daily preparations, select one of your retainers that wasn’t gained through the Permanent Hireling feat; they become your Lieutenant, and can use the Command a Minion action to command your crew as if they were you until your next daily preparations. Your crew still cannot be commanded more than once per turn.",
+         "traits":"Uncommon, Alchemist, Barbarian, Bard, Champion, Cleric, Druid, Fighter, Gunslinger, Inquisitor, Inventor, Investigator, Kineticist, Magus, Monk, Oracle, Psychic, Ranger, Rogue, Sorcerer, Summoner, Swashbuckler, Thaumaturge, Witch, Wizard, 3rd Party",
+         "src":"RRH",
+         "databaseID":1
+      },
+      {
+         "id":"084c95ea-e140-4920-a2cf-f19165d5b899",
+         "name":"Crew, Assemble!",
+         "level":12,
+         "action":2,
+         "reqFeats":[
+            "0382cb64-70f0-4bbf-aedf-2a968158dbe7"
+         ],
+         "textDescription":"<b>Prerequisites</b> Crew Lieutenant<br><b>Requirements</b> Your lieutenant is able to act<br><br>You and your Lieutenant work together to summon your crew. Your crew enters Battle Formation, and your lieutenant counts as having been commanded this turn but does not gain any actions. You can instead spend three actions to grant your lieutenant a single action.",
+         "traits":"Uncommon, Alchemist, Barbarian, Bard, Champion, Cleric, Druid, Fighter, Gunslinger, Inquisitor, Inventor, Investigator, Kineticist, Magus, Monk, Oracle, Psychic, Ranger, Rogue, Sorcerer, Summoner, Swashbuckler, Thaumaturge, Witch, Wizard, 3rd Party",
+         "src":"RRH",
+         "databaseID":1
+      },
+      {
+         "id":"10e05d1d-3ea0-4735-bafa-e598e1f29a9f",
+         "name":"Crossfire",
+         "level":8,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>You and your retainer work together to take advantage of an enemy’s weak points. When you successfully make a ranged Strike against a foe, your retainer can use a reaction to take advantage of this, causing the foe to be off-guard against the retainer's next ranged attack before the end of your retainer's next turn. Similarly, when your retainer successfully makes a ranged attack against a foe, you can use a reaction to take advantage of this, causing the foe to be off-guard against your next ranged Strike against them before the end of your next turn. Your retainer gains their reaction even when not commanded, but can only use it to perform this action when they do so.",
+         "traits":"Gunslinger, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734217422869"
+      },
+      {
+         "id":"8900940a-b706-4375-9610-1cad35b3cfe5",
+         "name":"Diverse Cohort Cooperation",
+         "level":12,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914",
+            "8fa9eec5-e33b-4b31-adab-00249d13355a||948ca635-83d7-4a80-b4f4-e54e19f481ea||19371278-8916-4510-a9d4-6dfc745956bf||0402355c-e0c9-4e6e-8e5b-31a7a9e6e6f8"
+         ],
+         "textDescription":"<b>Prerequisites</b> Cohort Independence<br><br>Your retainers gain the ability to further assist you in combat. For each of your retainers, select one Team-Up! ability from a novice profession other than the one granted by that retainer’s novice profession; that retainer gains the chosen ability. Choose the Team-Up! ability separately for each retainer, including any retainers you gain after selecting this feat.",
+         "traits":"Archetype, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734216614464"
+      },
+      {
+         "id":"8f240f8b-0183-441c-bba6-abc37febe0d6",
+         "name":"Diverse Cooperation",
+         "level":8,
+         "reqFeats":[
+            "8fa9eec5-e33b-4b31-adab-00249d13355a||19371278-8916-4510-a9d4-6dfc745956bf||0402355c-e0c9-4e6e-8e5b-31a7a9e6e6f8"
+         ],
+         "textDescription":"<b>Prerequisites</b> Retainer Independence<br><br>Your retainer gains the ability to further assist you in combat. Select one Team-Up! ability from a novice profession other than the one granted by your retainer’s novice profession; your retainer gains that ability.",
+         "traits":"Uncommon, Champion, Cleric, Exemplar, Fighter, Gunslinger, Inquisitor, Investigator, Magus, Oracle, Ranger, Rogue, Sorcerer, Swashbuckler, Thaumaturge, Wizard, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734225360213"
+      },
+      {
+         "id":"c402d2d5-2020-45fb-9874-dcc0f902062d",
+         "name":"Diverse Cooperation (Homebrew Archetypes)",
+         "level":12,
+         "reqFeats":[
+            "8fa9eec5-e33b-4b31-adab-00249d13355a||19371278-8916-4510-a9d4-6dfc745956bf||0402355c-e0c9-4e6e-8e5b-31a7a9e6e6f8",
+            "b4e7fe41-9405-433b-8f36-154eecc00d2a||192e446b-b744-4940-bfd4-d99f73bf5db3||d5fa962b-27c4-449a-81c2-a9e4c251f932||e3535863-842e-4c02-8cc3-5273a09ad8f3||e47f2aa9-c321-4cb8-af2c-5e633ff28f6a||b95a87e4-e32d-4487-91c5-1a546e7c207e||5cb7e1ea-c9d4-4027-b486-05d6a10695b6||6749393f-85d8-469b-8050-2b3fed668804||ad936e5b-9e7e-491f-b7fd-53718577f060"
+         ],
+         "textDescription":"<b>Prerequisites</b> Retainer Independence<br><br>Your retainer gains the ability to further assist you in combat. Select one Team-Up! ability from a novice profession other than the one granted by your retainer’s novice profession; your retainer gains that ability.",
+         "traits":"Uncommon, Archetype, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734225360214"
+      },
+      {
+         "id":"8e553b4c-3c1d-44c0-a373-f1843dc7e56b",
+         "name":"Diverse Cooperation (Official Archetypes)",
+         "level":12,
+         "reqFeats":[
+            "ARCHETYPE_CITY AGENT_City Agent Dedication||ARCHETYPE_ALERTEGO_Alter Ego Dedication||ARCHETYPE_Archeologist Dedication||ARCHETYPE_Captivator Dedication||ARCHETYPE_CELEBRITY_Celebrity Dedication||ARCHETYPE_EDGEWATCH DETECTIVE_Edgewatch Detective Dedication||ARCHETYPE_Exorcist Dedication||ARCHETYPE_Firebrand Braggart Dedication||ARCHETYPE_GLADIATOR_Gladiator Dedication||ARCHETYPE_MARSHAL_Marshal Dedication||ARCHETYPE_CHIME RINGER_Chime-Ringer Dedication||ARCHETYPE_Guild Agent Dedication||ARCHETYPE_PIRATE_Pirate Dedication||ARCHETYPE_RITUALIST_Ritualist Dedication||ARCHETYPE_SENESCHAL_Seneschal Witch Dedication||ARCHETYPE_Shieldmarshal Dedication||ARCHETYPE_Sniping Duo Dedication||ARCHETYPE_STARLIT_SENTINEL_Starlit Sentinel Dedication||ARCHETYPE_VIGILANTE_Vigilante Dedication||ARCHETYPE_VIKING_Viking Dedication||ARCHETYPE_Zephyr Guard Dedication||ARCHETYPE_Hellknight Dedication||ARCHETYPE_Knight Vigilant||ARCHETYPE_Scrollmaster Dedication||ARCHETYPE_Spellmaster Dedication||ARCHETYPE_Swordmaster Dedication||ARCHETYPE_GOLDEN LEAGUE XUN_Golden League Xun Dedication",
+            "8fa9eec5-e33b-4b31-adab-00249d13355a||19371278-8916-4510-a9d4-6dfc745956bf||0402355c-e0c9-4e6e-8e5b-31a7a9e6e6f8"
+         ],
+         "textDescription":"<b>Prerequisites</b> Retainer Independence<br><br>Your retainer gains the ability to further assist you in combat. Select one Team-Up! ability from a novice profession other than the one granted by your retainer’s novice profession; your retainer gains that ability.",
+         "traits":"Uncommon, Archetype, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734225360214"
+      },
+      {
+         "id":"cf992bb3-7026-4843-82a1-5147b7829d26",
+         "name":"Downtime Capability",
+         "level":8,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914"
+         ],
+         "textDescription":"<b>Prerequisites</b> Leader Dedication<br><br>Your retainers are skilled enough that they can perform downtime activities while working for you. Retainers you have that don’t have the basic retainer downtime benefits gain them. This does not increase their retainer downtime benefits if they would later gain them through a profession.",
+         "traits":"Uncommon, Archetype, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734216041068"
+      },
+      {
+         "id":"06529742-c7bf-42a0-907a-2e9606423cf8",
+         "name":"Expanded Training",
+         "level":8,
+         "selectable":3,
+         "reqFeats":[
+            "226b7e38-b0f5-4148-ad2d-fee2541ca55c||04240af6-7241-4970-b2a7-15126432bb23||e0167374-3dfb-4093-8552-21e228ddc8f1"
+         ],
+         "textDescription":"<b>Prerequisites</b> Leadership<br><br>Your retainer gains additional abilities from beyond their profession, either due to life circumstances or focused training. Select a novice alternate retainer ability; your retainer gains that ability. If you select this feat at 12th level or higher, you can select a bloodied alternate retainer ability instead.  If you select this feat at 18th level or higher, you can select a veteran alternate retainer ability instead.  <br><br>If your retainer has replaced one of their profession abilities with an alternate retainer ability, you can grant them one of the retainer abilities they have replaced instead of an alternate retainer ability.<br><br><b>Special</b> At 12th level or higher, you can select this feat a second time to grant them another alternate retainer ability. At 18th level or higher, you can select this feat a third time to do the same.",
+         "traits":"Uncommon, Champion, Cleric, Exemplar, Fighter, Gunslinger, Inquisitor, Investigator, Magus, Oracle, Ranger, Rogue, Sorcerer, Swashbuckler, Thaumaturge, Wizard, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734225360214",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"7b3574a1-1b54-49d2-b83b-dba85fa340f4",
+               "int0":1
+            }
+         ]
+      },
+      {
+         "id":"ec1bc03d-2ade-456c-a428-b1756e3fd8fb",
+         "name":"Expanded Training (Homebrew Archetypes)",
+         "level":8,
+         "reqFeats":[
+            "226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23",
+            "b4e7fe41-9405-433b-8f36-154eecc00d2a||192e446b-b744-4940-bfd4-d99f73bf5db3||d5fa962b-27c4-449a-81c2-a9e4c251f932||e3535863-842e-4c02-8cc3-5273a09ad8f3||e47f2aa9-c321-4cb8-af2c-5e633ff28f6a||b95a87e4-e32d-4487-91c5-1a546e7c207e||5cb7e1ea-c9d4-4027-b486-05d6a10695b6||6749393f-85d8-469b-8050-2b3fed668804||ad936e5b-9e7e-491f-b7fd-53718577f060"
+         ],
+         "textDescription":"<b>Prerequisites</b> Leadership<br><br>Your retainer gains additional abilities from beyond their profession, either due to life circumstances or focused training. Select a novice alternate retainer ability; your retainer gains that ability. If you select this feat at 12th level or higher, you can select a bloodied alternate retainer ability instead.  If you select this feat at 18th level or higher, you can select a veteran alternate retainer ability instead.  <br><br>If your retainer has replaced one of their profession abilities with an alternate retainer ability, you can grant them one of the retainer abilities they have replaced instead of an alternate retainer ability.<br><br><b>Special</b> At 12th level or higher, you can select this feat a second time to grant them another alternate retainer ability. At 18th level or higher, you can select this feat a third time to do the same.",
+         "traits":"Uncommon, Archetype, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734225360215",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"7b3574a1-1b54-49d2-b83b-dba85fa340f4",
+               "int0":1
+            }
+         ]
+      },
+      {
+         "id":"90095646-c5a5-4e73-b047-fa90e58f3fd9",
+         "name":"Expanded Training (Official Archetypes)",
+         "level":8,
+         "selectable":3,
+         "reqFeats":[
+            "ARCHETYPE_CITY AGENT_City Agent Dedication||ARCHETYPE_ALERTEGO_Alter Ego Dedication||ARCHETYPE_Archeologist Dedication||ARCHETYPE_Captivator Dedication||ARCHETYPE_CELEBRITY_Celebrity Dedication||ARCHETYPE_EDGEWATCH DETECTIVE_Edgewatch Detective Dedication||ARCHETYPE_Exorcist Dedication||ARCHETYPE_Firebrand Braggart Dedication||ARCHETYPE_GLADIATOR_Gladiator Dedication||ARCHETYPE_MARSHAL_Marshal Dedication||ARCHETYPE_CHIME RINGER_Chime-Ringer Dedication||ARCHETYPE_Guild Agent Dedication||ARCHETYPE_PIRATE_Pirate Dedication||ARCHETYPE_RITUALIST_Ritualist Dedication||ARCHETYPE_SENESCHAL_Seneschal Witch Dedication||ARCHETYPE_Shieldmarshal Dedication||ARCHETYPE_Sniping Duo Dedication||ARCHETYPE_STARLIT_SENTINEL_Starlit Sentinel Dedication||ARCHETYPE_VIGILANTE_Vigilante Dedication||ARCHETYPE_VIKING_Viking Dedication||ARCHETYPE_Zephyr Guard Dedication||ARCHETYPE_Hellknight Dedication||ARCHETYPE_Knight Vigilant||ARCHETYPE_Scrollmaster Dedication||ARCHETYPE_Spellmaster Dedication||ARCHETYPE_Swordmaster Dedication||ARCHETYPE_GOLDEN LEAGUE XUN_Golden League Xun Dedication",
+            "04240af6-7241-4970-b2a7-15126432bb23||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1"
+         ],
+         "textDescription":"<b>Prerequisites</b> Leadership<br><br>Your retainer gains additional abilities from beyond their profession, either due to life circumstances or focused training. Select a novice alternate retainer ability; your retainer gains that ability. If you select this feat at 12th level or higher, you can select a bloodied alternate retainer ability instead.  If you select this feat at 18th level or higher, you can select a veteran alternate retainer ability instead.  <br><br>If your retainer has replaced one of their profession abilities with an alternate retainer ability, you can grant them one of the retainer abilities they have replaced instead of an alternate retainer ability.<br><br><b>Special</b> At 12th level or higher, you can select this feat a second time to grant them another alternate retainer ability. At 18th level or higher, you can select this feat a third time to do the same.",
+         "traits":"Uncommon, Archetype, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734225360216",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"7b3574a1-1b54-49d2-b83b-dba85fa340f4",
+               "int0":1
+            }
+         ]
+      },
+      {
+         "id":"ed93850f-32a2-4fc7-b566-f8a9e67b38ea",
+         "name":"Expert Hirelings",
+         "level":7,
+         "reqFeats":[
+            "e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> Permanent Hireling<br><br>Your retainer (or possibly retainers) gain increasing skill in their trades. Your retainers granted by the Permanent Hireling feat gain retainer downtime benefits and improve one of their trained skills to expert.",
+         "traits":"General, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734215682331"
+      },
+      {
+         "id":"f854c800-aa4f-4d61-9d61-72a505e58f54",
+         "name":"Flexible Training",
+         "level":10,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "reqSpecials":[
+            "Combat Flexibility"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer; combat flexibility<br><br>When preparing your tactics for the day, you also prepare your retainer to utilize them. During your daily preparations, select one fighter feat of 8th level or lower that your retainer meets the requirements for; they gain that feat until your next daily preparations. If you have the Improved Flexibility feature, you can instead select a fighter feat of 14th level or lower that they meet the prerequisites for.",
+         "traits":"Fighter, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734218213092"
+      },
+      {
+         "id":"2e9a60dd-ea1f-4af9-bddb-8063b8874c89",
+         "name":"Font Conduit",
+         "level":12,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "reqSpecials":[
+            "Divine Font"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer; divine font<br><br>Your retainer can utilize your divine font in battle. Your retainer can cast spells from your divine font, casting them utilizing your spell attack modifier and spell DC. When they do so, the spell is cast at two ranks lower than the rank you cast it at. <br><br>Additionally, once per day when you cast a spell from your divine font that costs two or fewer actions, your retainer can use their reaction to cast the same spell without expending a spell slot; when they do so, they do so at two ranks lower than the rank you cast it at. Your retainer gains their reaction even when not commanded, but can only use it to perform this action when they do so.",
+         "traits":"Cleric, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734218422477"
+      },
+      {
+         "id":"b2c6d57c-d4e3-423b-814b-0919f96dc46e",
+         "name":"Glorious Flagbearer",
+         "level":12,
+         "reqFeats":[
+            "8efb92c1-e4f5-4e70-b487-525dae1d0e1c"
+         ],
+         "textDescription":"<b>Prerequisites</b> Banner Bearer<br><br>Your retainer’s banner inspires your allies to battle, a wave signaling a final push to victory. Your retainer gains the Glorious Wave action.",
+         "traits":"Champion, Exemplar, Fighter, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734218507602",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"86b70317-d4b1-42cb-9393-f444777e9662",
+               "int0":1
+            }
+         ]
+      },
+      {
+         "id":"fcf4e9d5-a8c0-4a4d-8481-b6baf7b7a5d4",
+         "name":"Group Tactics",
+         "level":12,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>You and retainer fight in tandem. Whenever you and your retainer are adjacent to the same foe, you are both flanking that foe with each other, regardless of your actual positions.",
+         "traits":"Fighter, Inquisitor, Ranger, Swashbuckler, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734218539536"
+      },
+      {
+         "id":"776ed4fd-53c0-489e-a575-7e3c2ed09ff4",
+         "name":"Handle Equipment",
+         "level":3,
+         "reqFeats":[
+            "226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0||2c39cb29-ce30-4b2a-aef3-0852b8047914"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>Your retainer, even if normally inadequate in combat, is capable of aiding you with retrieving equipment. Your retainer gains the Exchange Gear Team-Up! Benefit.<br><br><b>Team-Up! Benefit–Exchange Gear</b> Your retainer draws or retrieves an item and passes it to you; if your hands are occupied, they swap this item with an item you are holding of your choice. They may then choose to stow or put away the item they received. You and your retainer must be adjacent to receive benefits from this ability.",
+         "traits":"General, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734215582925"
+      },
+      {
+         "id":"c3a3c34b-7b81-47e7-803f-c572e4989cc6",
+         "name":"Hold Steady Men!",
+         "level":14,
+         "action":0,
+         "reqFeats":[
+            "0382cb64-70f0-4bbf-aedf-2a968158dbe7"
+         ],
+         "textDescription":"<b>Frequency</b> once per day<br><b>Prerequisites</b> Crew Lieutenant<br><b>Trigger</b> You fail or critically fail your check to keep your crew from Disbanding and your lieutenant is able to act<br><br>You order your lieutenant to help keep your men in line. Reroll the triggering check with a +2 circumstance bonus and use the higher result.",
+         "traits":"Uncommon, Alchemist, Barbarian, Bard, Champion, Cleric, Druid, Fighter, Fortune, Gunslinger, Inquisitor, Inventor, Investigator, Kineticist, Magus, Monk, Oracle, Psychic, Ranger, Rogue, Sorcerer, Summoner, Swashbuckler, Thaumaturge, Witch, Wizard, 3rd Party",
+         "src":"RRH",
+         "databaseID":1
+      },
+      {
+         "id":"1a858560-0471-4963-ad4b-ead499bcc9cf",
+         "name":"Holy Attendant",
+         "level":8,
+         "action":-1,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>The holy tie between you and your retainer allows you to affect them with your divine spells at a distance. If the next action you use is to Cast a Spell with the divine trait that has a range and you have line of effect to your retainer, the spell can target your retainer even if they are outside the normal range. If you spend an action when using this spellshape, you can instead use your retainer as the origin point of the spell.",
+         "traits":"Cleric, Concentrate, Oracle, Spellshape, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734217470096"
+      },
+      {
+         "id":"b2758125-dd0a-4e9b-8401-238ffaab581b",
+         "name":"Impart Teachings",
+         "level":8,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914"
+         ],
+         "textDescription":"<b>Prerequisites</b> Leader Dedication<br><br>You brief your retainers on tactics, skills, and other knowledge before going into battle. During your daily preparations, you can grant your retainers any of the following benefits. These benefits last until your next daily preparations.<br> - Select one skill that you are at least expert in. All of your retainers become trained in that skill.<br> - Select one focus spell that you have. Retainers you have with a focus pool can cast that focus spell instead of one of their own. This does not increase the number of focus points in their focus pool, and they cannot cast it at a rank higher than you are capable of.<br> - Select one spell that you have prepared or in your repertoire. Retainers with spell slots can cast that spell using their spell slots, treating it as if it were a spell of their tradition in their repertoire. The chosen spell counts as a signature spell for them.<br> - Select one feat you have with the teamwork trait. All of your retainers gain that feat, even if they don’t meet the requirements.",
+         "traits":"Archetype, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734216099112"
+      },
+      {
+         "id":"8d999dd4-11c2-4053-b145-7cc8f97e8e5e",
+         "name":"Inquisitorial Retinue",
+         "level":8,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> Leadership; +2 Charisma<br><br>Inquisitors are well known to travel with a posse of several retainers whose unique skills compliment their leader. Another retainer joins your travels. They are a novice retainer that has the minion trait. This retainer cannot have the same novice profession as any of your other retainers. Later, when they gain their advanced professions, they cannot select the same advanced professions as any of your other retainers. See Multiple Retainers for rules on how having multiple retainers works.",
+         "traits":"Inquisitor, 3rd Party",
+         "src":"RRH",
+         "hashMapRequiredAbilityScores":{
+            "5":14
+         },
+         "databaseID":1,
+         "timestamp":"1734217542233"
+      },
+      {
+         "id":"bcec21e0-ae2c-4919-a338-13742159c56e",
+         "name":"Inspiring Aura",
+         "level":10,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> champion’s aura<br><br>Your aura inspires those under your command. Creatures with the minion trait under your control that are within your champion’s aura gain a +1 status bonus to attack rolls, AC, saving throws, and skill checks.",
+         "traits":"Champion, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734218236998"
+      },
+      {
+         "id":"a870b5ce-d3b5-4cec-9143-04c09f629873",
+         "name":"Keep It Together!",
+         "level":12,
+         "action":0,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Frequency</b> once per 10 minutes<br><b>Prerequisites</b> a retainer<br><b>Trigger</b> Your retainer fails or critically a saving throw and they are within 30 feet of you<br><br>With a stern bark of orders your retainer corrects their mistake. Reroll the triggering saving throw with a +2 circumstance bonus and use the higher result.",
+         "traits":"Auditory, Champion, Fighter, Fortune, Gunslinger, Inquisitor, Rogue, Swashbuckler, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734218599150"
+      },
+      {
+         "id":"de52e6d0-4c54-4a33-900a-7878c8303129",
+         "name":"Kindred Bloodline",
+         "level":8,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer; your retainer can cast spells and has a tradition that matches your bloodline<br><br>Your retainer draws their magic from a similar source to your own. Your retainer gains your sorcerous gift cantrip as an innate cantrip of their tradition; additionally, they can learn spells from your sorcerous gifts list, even if they are normally not on their tradition’s spell list. Further, whenever they cast a focus spell or a spell from a spell slot, they gain your Blood Magic benefit.",
+         "traits":"Sorcerer, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734217577379"
+      },
+      {
+         "id":"2c39cb29-ce30-4b2a-aef3-0852b8047914",
+         "name":"Leader Dedication",
+         "level":6,
+         "textDescription":"Prerequisites +2 Charisma<br><br>You gain the service of a novice retainer who travels with you and obeys your commands. Contrary to the usual rules for retainers, this feat can grant you a second retainer. If you ever have more than one retainer, you gain the Call Retainer action.",
+         "traits":"Uncommon, Archetype, Dedication, 3rd Party",
+         "src":"RRH",
+         "hashMapRequiredAbilityScores":{
+            "5":14
+         },
+         "databaseID":1,
+         "timestamp":"1734215548846",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"6e995cd4-1d5c-4b77-9796-b594c03bdaa3",
+               "int0":1,
+               "reference":"cbb43a21-2ec9-495c-909c-17e300cda570"
+            },
+            {
+               "effectType":13,
+               "string0":"1c43d1ba-8150-4a20-b960-c0679dfc05c1",
+               "int0":1,
+               "reference":"3fec0900-ef71-4bb4-9a6d-a297ddbfd222"
+            },
+            {
+               "effectType":13,
+               "string0":"7b3574a1-1b54-49d2-b83b-dba85fa340f4",
+               "int0":1,
+               "reference":"9db1874b-bc15-4bd4-bde3-f7ea66c6e88e"
+            },
+            {
+               "effectType":13,
+               "string0":"0eb8094c-c242-488a-adbd-e08062d055dc",
+               "int0":1,
+               "reference":"47161eb4-769a-4dec-9788-08164e847d57"
+            }
+         ]
+      },
+      {
+         "id":"226b7e38-b0f5-4148-ad2d-fee2541ca55c",
+         "name":"Leadership",
+         "level":6,
+         "textDescription":"<b>Prerequisites</b> +1 Charisma<br><br>You gain the service of a novice retainer who travels with you and obeys your commands. <br><br><b>Special (Cleric)</b> You can only select the Adept, Hireling, or Warrior novice profession for this retainer.<br><b>Special (Gunslinger)</b> You can only select the Expert, Hireling, or Mercenary novice profession for this retainer.<br><b>Special (Magus)</b> You can only select the Adept, Hireling, or Mercenary novice profession for this retainer.<br><b>Special (Oracle)</b> You can only select the Hireling, Mercenary, or Warrior novice profession for this retainer.<br><b>Special (Ranger)</b> You can only select the Expert, Hireling, or Mercenary novice profession for this retainer.<br><b>Special (Sorcerer)</b> You can only select the Adept, Expert, or Hireling novice profession for this retainer.<br><b>Special (Wizard)</b> You can only select the Adept, Hireling, or Mercenary novice profession for this retainer.",
+         "traits":"Uncommon, Champion, Cleric, Exemplar, Fighter, Gunslinger, Inquisitor, Investigator, Magus, Oracle, Ranger, Rogue, Sorcerer, Swashbuckler, Thaumaturge, Wizard, 3rd Party",
+         "src":"RRH",
+         "hashMapRequiredAbilityScores":{
+            "5":12
+         },
+         "databaseID":1,
+         "timestamp":"1734225360216",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"6e995cd4-1d5c-4b77-9796-b594c03bdaa3",
+               "int0":1
+            },
+            {
+               "effectType":13,
+               "string0":"1c43d1ba-8150-4a20-b960-c0679dfc05c1",
+               "int0":1
+            },
+            {
+               "effectType":13,
+               "string0":"7b3574a1-1b54-49d2-b83b-dba85fa340f4",
+               "int0":1
+            }
+         ]
+      },
+      {
+         "id":"e0167374-3dfb-4093-8552-21e228ddc8f1",
+         "name":"Leadership (Homebrew Archetypes)",
+         "level":6,
+         "reqFeats":[
+            "b4e7fe41-9405-433b-8f36-154eecc00d2a||192e446b-b744-4940-bfd4-d99f73bf5db3||d5fa962b-27c4-449a-81c2-a9e4c251f932||e3535863-842e-4c02-8cc3-5273a09ad8f3||e47f2aa9-c321-4cb8-af2c-5e633ff28f6a||b95a87e4-e32d-4487-91c5-1a546e7c207e||5cb7e1ea-c9d4-4027-b486-05d6a10695b6||6749393f-85d8-469b-8050-2b3fed668804||ad936e5b-9e7e-491f-b7fd-53718577f060"
+         ],
+         "textDescription":"<b>Prerequisites</b> +1 Charisma<br><br>You gain the service of a novice retainer who travels with you and obeys your commands.",
+         "traits":"Uncommon, Archetype, 3rd Party",
+         "src":"RRH",
+         "hashMapRequiredAbilityScores":{
+            "5":12
+         },
+         "databaseID":1,
+         "timestamp":"1734225360217",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"6e995cd4-1d5c-4b77-9796-b594c03bdaa3",
+               "int0":1
+            },
+            {
+               "effectType":13,
+               "string0":"1c43d1ba-8150-4a20-b960-c0679dfc05c1",
+               "int0":1
+            },
+            {
+               "effectType":13,
+               "string0":"7b3574a1-1b54-49d2-b83b-dba85fa340f4",
+               "int0":1
+            }
+         ]
+      },
+      {
+         "id":"04240af6-7241-4970-b2a7-15126432bb23",
+         "name":"Leadership (Official Archetypes)",
+         "level":6,
+         "reqFeats":[
+            "ARCHETYPE_CITY AGENT_City Agent Dedication||ARCHETYPE_ALERTEGO_Alter Ego Dedication||ARCHETYPE_Archeologist Dedication||ARCHETYPE_Captivator Dedication||ARCHETYPE_CELEBRITY_Celebrity Dedication||ARCHETYPE_EDGEWATCH DETECTIVE_Edgewatch Detective Dedication||ARCHETYPE_Exorcist Dedication||ARCHETYPE_Firebrand Braggart Dedication||ARCHETYPE_GLADIATOR_Gladiator Dedication||ARCHETYPE_MARSHAL_Marshal Dedication||ARCHETYPE_CHIME RINGER_Chime-Ringer Dedication||ARCHETYPE_Guild Agent Dedication||ARCHETYPE_PIRATE_Pirate Dedication||ARCHETYPE_RITUALIST_Ritualist Dedication||ARCHETYPE_SENESCHAL_Seneschal Witch Dedication||ARCHETYPE_Shieldmarshal Dedication||ARCHETYPE_Sniping Duo Dedication||ARCHETYPE_STARLIT_SENTINEL_Starlit Sentinel Dedication||ARCHETYPE_VIGILANTE_Vigilante Dedication||ARCHETYPE_VIKING_Viking Dedication||ARCHETYPE_Zephyr Guard Dedication||ARCHETYPE_Hellknight Dedication||ARCHETYPE_Knight Vigilant||ARCHETYPE_Scrollmaster Dedication||ARCHETYPE_Spellmaster Dedication||ARCHETYPE_Swordmaster Dedication||ARCHETYPE_GOLDEN LEAGUE XUN_Golden League Xun Dedication"
+         ],
+         "textDescription":"<b>Prerequisites</b> +1 Charisma<br><br>You gain the service of a novice retainer who travels with you and obeys your commands.",
+         "traits":"Uncommon, Archetype, 3rd Party",
+         "src":"RRH",
+         "hashMapRequiredAbilityScores":{
+            "5":12
+         },
+         "databaseID":1,
+         "timestamp":"1734225360217",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"6e995cd4-1d5c-4b77-9796-b594c03bdaa3",
+               "int0":1
+            },
+            {
+               "effectType":13,
+               "string0":"1c43d1ba-8150-4a20-b960-c0679dfc05c1",
+               "int0":1
+            },
+            {
+               "effectType":13,
+               "string0":"7b3574a1-1b54-49d2-b83b-dba85fa340f4",
+               "int0":1
+            }
+         ]
+      },
+      {
+         "id":"0a492aae-5002-43db-bbe0-406907cf8b77",
+         "name":"Lend Retainer",
+         "level":14,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914",
+            "948ca635-83d7-4a80-b4f4-e54e19f481ea||8fa9eec5-e33b-4b31-adab-00249d13355a||19371278-8916-4510-a9d4-6dfc745956bf||0402355c-e0c9-4e6e-8e5b-31a7a9e6e6f8"
+         ],
+         "textDescription":"<b>Prerequisites</b> Cohort Independence<br><br>By bringing an ally in on your tactics, you allow them to command your retainers in your stead. During your daily preparations, select one ally that doesn’t have the minion trait. They can Command your retainers during their turn. If you have more than one retainer, that ally may gain one of your retainers as if they were their own for the duration, allowing them to Command them and take them into battle as a minion. A retainer cannot be commanded more than once each turn, and neither companion gains an action when not commanded as per Cohort Independence if both are on the battlefield.",
+         "traits":"Uncommon, Archetype, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734216595249"
+      },
+      {
+         "id":"3bc0c4e0-9a46-4787-9b4b-4eb799cc3b38",
+         "name":"Master Hirelings",
+         "level":15,
+         "reqFeats":[
+            "ed93850f-32a2-4fc7-b566-f8a9e67b38ea"
+         ],
+         "textDescription":"<b>Prerequisites</b> Expert Hirelings<br><br>Your hirelings master their individual trades. Your retainers granted by the Permanent Hireling feat gain retainer downtime benefits and improve one of their expert skills to master.<br>",
+         "traits":"General, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734215721291"
+      },
+      {
+         "id":"6fcccf6d-fef1-4bdf-90fe-be09e572e8e7",
+         "name":"Mental Fortitude",
+         "level":8,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914"
+         ],
+         "textDescription":"<b>Prerequisites</b> Leader Dedication, Cha +3<br><br>You’ve mentally trained your followers to trust your instincts in place of their own. They gain a +2 circumstance bonus to saving throws against being controlled or frightened , and their frightened condition cannot be higher than your own. Additionally, your retainers never attack you or each other, even if they are magically compelled to.",
+         "traits":"Archetype, 3rd Party",
+         "src":"RRH",
+         "hashMapRequiredAbilityScores":{
+            "5":16
+         },
+         "databaseID":1,
+         "timestamp":"1734216126387"
+      },
+      {
+         "id":"ffd916e6-e52d-4a2e-9cec-31452f6f494f",
+         "name":"Monster Specialist",
+         "level":8,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>Many thaumaturges encounter their retainers in the midst of battling their own foes, and team up with them to fight a common threat; knowledge of this threat often carries over to further adventures. Your retainer gains the Additional Lore skill feat for a creature type beside humanoid (such as Undead Lore or Vampire Lore); this creature type is their specialty. They also gain the Consult a Specialist reaction, and they gain an additional reaction on their turn which can only be used to take the Consult a Specialist reaction.",
+         "traits":"Thaumaturge, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734217634000",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"e93fcdac-4607-418c-bf3e-60d12981c8a4",
+               "int0":1
+            }
+         ]
+      },
+      {
+         "id":"e897cbab-b4e3-4f1a-b5ad-5a238c2845a0",
+         "name":"Permanent Hireling",
+         "selectable":20,
+         "textDescription":"You gain a permanent hireling who assists you in daily tasks but isn’t suited for combat. You gain the service of a novice retainer who travels with you and obeys your commands. This retainer must select the Hireling novice profession, but cannot use their Team-Up! benefit. Contrary to the usual rules for retainers, this feat can grant you a second retainer, but retainers granted by this feat cannot become bloodied or replace their ability with an alternate retainer ability. If you ever have more than one retainer, you gain the Call Retainer action from the Leader archetype. <br><br><b>Special</b> You can select this feat multiple times, gaining a new retainer each time, to a maximum number of retainers equal to your Charisma modifier from all sources. Each retainer gained through this feat must select the Hireling novice profession, and you can still only have one hireling active in combat at a time. For more information on having multiple retainers, see the Multiple Retainers sidebar for the Leader archetype.",
+         "traits":"Uncommon, General, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734215614635",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"764accbd-0b5f-4a7b-b30d-26a46487eead",
+               "int0":1
+            },
+            {
+               "effectType":13,
+               "string0":"0eb8094c-c242-488a-adbd-e08062d055dc",
+               "int0":1
+            }
+         ]
+      },
+      {
+         "id":"87f18957-32f8-437a-9ae8-59826b63eb45",
+         "name":"Recharging Command",
+         "level":8,
+         "action":1,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>You step back to recharge, allowing your retainer to act in your stead. You Command your retainer, then recharge your Spellstrike. If you hit a creature with a Spellstrike since the start of your previous turn, the target is off-guard to your retainer’s next attack before the end of their turn.",
+         "traits":"Concentrate, Magus, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734217670148"
+      },
+      {
+         "id":"eaae864b-0e31-4b0a-845d-afc95b85456b",
+         "name":"Reload Training",
+         "level":8,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer; gunslinger’s way<br><br>You’ve taught your retainer to reload their weapon in a manner similar to yourself. Your retainer gains your way’s Slinger’s Reload. Additionally, they gain a +1 circumstance bonus to damage rolls made with firearms and crossbows.",
+         "traits":"Gunslinger, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734217727527"
+      },
+      {
+         "id":"8fa9eec5-e33b-4b31-adab-00249d13355a",
+         "name":"Retainer Independence",
+         "level":8,
+         "reqFeats":[
+            "226b7e38-b0f5-4148-ad2d-fee2541ca55c||04240af6-7241-4970-b2a7-15126432bb23||e0167374-3dfb-4093-8552-21e228ddc8f1"
+         ],
+         "textDescription":"<b>Prerequisites</b> Leadership<br><br>Your retainer becomes skilled enough to fight without your direct commands. During an encounter, even if you don’t use the Command a Minion action, your retainer can still use 1 action on your turn to either Stride or Strike. Additionally, you can spend 2 actions to Command a Minion instead of 1 when commanding your retainer. If you do, your retainer uses an additional action.",
+         "traits":"Uncommon, Champion, Cleric, Exemplar, Fighter, Gunslinger, Inquisitor, Investigator, Magus, Oracle, Ranger, Rogue, Sorcerer, Swashbuckler, Thaumaturge, Wizard, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734225360218"
+      },
+      {
+         "id":"19371278-8916-4510-a9d4-6dfc745956bf",
+         "name":"Retainer Independence (Homebrew Archetypes)",
+         "level":8,
+         "reqFeats":[
+            "226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23",
+            "b4e7fe41-9405-433b-8f36-154eecc00d2a||192e446b-b744-4940-bfd4-d99f73bf5db3||d5fa962b-27c4-449a-81c2-a9e4c251f932||e3535863-842e-4c02-8cc3-5273a09ad8f3||e47f2aa9-c321-4cb8-af2c-5e633ff28f6a||b95a87e4-e32d-4487-91c5-1a546e7c207e||5cb7e1ea-c9d4-4027-b486-05d6a10695b6||6749393f-85d8-469b-8050-2b3fed668804||ad936e5b-9e7e-491f-b7fd-53718577f060"
+         ],
+         "textDescription":"<b>Prerequisites</b> Leadership<br><br>Your retainer becomes skilled enough to fight without your direct commands. During an encounter, even if you don’t use the Command a Minion action, your retainer can still use 1 action on your turn to either Stride or Strike. Additionally, you can spend 2 actions to Command a Minion instead of 1 when commanding your retainer. If you do, your retainer uses an additional action.",
+         "traits":"Uncommon, Archetype, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734225360218"
+      },
+      {
+         "id":"0402355c-e0c9-4e6e-8e5b-31a7a9e6e6f8",
+         "name":"Retainer Independence (Official Archetypes)",
+         "level":8,
+         "reqFeats":[
+            "ARCHETYPE_CITY AGENT_City Agent Dedication||ARCHETYPE_ALERTEGO_Alter Ego Dedication||ARCHETYPE_Archeologist Dedication||ARCHETYPE_Captivator Dedication||ARCHETYPE_CELEBRITY_Celebrity Dedication||ARCHETYPE_EDGEWATCH DETECTIVE_Edgewatch Detective Dedication||ARCHETYPE_Exorcist Dedication||ARCHETYPE_Firebrand Braggart Dedication||ARCHETYPE_GLADIATOR_Gladiator Dedication||ARCHETYPE_MARSHAL_Marshal Dedication||ARCHETYPE_CHIME RINGER_Chime-Ringer Dedication||ARCHETYPE_Guild Agent Dedication||ARCHETYPE_PIRATE_Pirate Dedication||ARCHETYPE_RITUALIST_Ritualist Dedication||ARCHETYPE_SENESCHAL_Seneschal Witch Dedication||ARCHETYPE_Shieldmarshal Dedication||ARCHETYPE_Sniping Duo Dedication||ARCHETYPE_STARLIT_SENTINEL_Starlit Sentinel Dedication||ARCHETYPE_VIGILANTE_Vigilante Dedication||ARCHETYPE_VIKING_Viking Dedication||ARCHETYPE_Zephyr Guard Dedication||ARCHETYPE_Hellknight Dedication||ARCHETYPE_Knight Vigilant||ARCHETYPE_Scrollmaster Dedication||ARCHETYPE_Spellmaster Dedication||ARCHETYPE_Swordmaster Dedication||ARCHETYPE_GOLDEN LEAGUE XUN_Golden League Xun Dedication",
+            "04240af6-7241-4970-b2a7-15126432bb23||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1"
+         ],
+         "textDescription":"<b>Prerequisites</b> Leadership<br><br>Your retainer becomes skilled enough to fight without your direct commands. During an encounter, even if you don’t use the Command a Minion action, your retainer can still use 1 action on your turn to either Stride or Strike. Additionally, you can spend 2 actions to Command a Minion instead of 1 when commanding your retainer. If you do, your retainer uses an additional action.",
+         "traits":"Uncommon, Archetype, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734225360219"
+      },
+      {
+         "id":"d9c3e2ac-8568-4aa8-8a46-7551d5efd8b4",
+         "name":"Retainer Ritualist",
+         "level":8,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>Your retainer, whether they can cast magic or not, is capable of aiding you during rituals with ease. They gain a +1 circumstance bonus to primary and secondary checks they attempt as part of casting a ritual. When they roll a success at a secondary check as part of casting a ritual, they get a critical success instead.",
+         "traits":"Cleric, Oracle, Sorcerer, Thaumaturge, Wizard, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734217766073"
+      },
+      {
+         "id":"e7c8d8ed-86d8-473b-ae9a-7d1bdd71d045",
+         "name":"Retainer Skill Training",
+         "level":8,
+         "selectable":20,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914"
+         ],
+         "textDescription":"Prerequisites Leader Dedication<br><br>Each of your retainers gain a skill feat of your choice that they meet the requirements for.<br><br><b>Special</b> You can select this feat multiple times; each time, select a new skill feat for each of your retainers.",
+         "traits":"Archetype, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734216154985"
+      },
+      {
+         "id":"dc3710d8-df2f-4e5e-98c6-65686126b463",
+         "name":"Retainer Spellshaping",
+         "level":12,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>Whether or not your retainer can cast spells, you’ve taught them the skills necessary to channel spellshapes into your own magic. Select one wizard feat with the spellshape trait 8th level or lower; your retainer gains that feat. Your retainer also gains the Infuse Spellshape action.",
+         "traits":"Wizard, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734218630079",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"1e946ff8-e1ee-4007-992b-01fdf814874c",
+               "int0":1
+            }
+         ]
+      },
+      {
+         "id":"323ac2a2-14b8-40ac-9e0d-a89545c61ea8",
+         "name":"Retainer Weapon Mastery",
+         "level":8,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>When you train with your weapons of choice, you pass that proficiency on to your retainer. Select one advanced weapon from the weapon group you chose with the fighter weapon mastery feature–for the purposes of proficiency, your retainer treats martial weapons from that weapon group as simple weapons, and the chosen advanced weapon as a martial weapon. Additionally, they gain a +1 circumstance bonus to attack rolls made with weapons from that weapon group.",
+         "traits":"Fighter, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734217792944"
+      },
+      {
+         "id":"b9b9c3e1-8e0f-4a21-b31c-671b50c2f370",
+         "name":"Spellbound Supporter",
+         "level":8,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>Your retainer has learned magic and skills to make you appear even better to outside eyes. Your retainer gains <i>bullhorn</i>, <i>figment</i>, and <i>prestidigitation</i> as innate spells of their tradition; if they do not have a tradition, they become trained in spell attack rolls and spell DCs and their tradition becomes occult. When they cast one of these spells while within 15 feet of you, you gain panache until the end of your next turn.",
+         "traits":"Swashbuckler, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734217838553"
+      },
+      {
+         "id":"f8fad99b-674c-40d2-97e0-e668fff09f49",
+         "name":"Split Up and Search for Clues",
+         "level":8,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>When investigating a crime scene, you and your Retainer work as two parts of a whole to case the scene. When your retainer aids you on any of the following exploration activities and you roll a critical failure on the skill check, you get a failure instead: Decipher Writing, Investigate, Pursue a Lead, Search, Track, exploration activities granted by an Investigator feat or ability. Additionally, your retainer automatically critically succeeds the skill check when Aiding you on one of the listed activities as long as they are at least trained in the skill being used.<br><br>If you and your retainer would each be performing a different one of these activities at the same time, you each gain a +1 status bonus to the skill check for your activity. For example, if you were Pursuing a Lead and your retainer was Investigating, you would each gain the +1 status bonus. Meanwhile, if you were both Searching, neither of you would gain a bonus.",
+         "traits":"Investigator, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734217865392"
+      },
+      {
+         "id":"29051c40-0377-4b9c-9888-6ebd88007c08",
+         "name":"Squad Beatdown",
+         "level":10,
+         "reqFeats":[
+            "948ca635-83d7-4a80-b4f4-e54e19f481ea||8fa9eec5-e33b-4b31-adab-00249d13355a||19371278-8916-4510-a9d4-6dfc745956bf||0402355c-e0c9-4e6e-8e5b-31a7a9e6e6f8"
+         ],
+         "reqSpecials":[
+            "Ruffian Racket"
+         ],
+         "textDescription":"<b>Prerequisites</b> Retainer Independence or Cohort Independence; ruffian racket<br><br>You and your retainer work together to beat up someone. Your retainer gains the Squad Beatdown Team-Up! benefit.<br><br>Team-Up! Benefit–Squad Beatdown You and your retainer work together to beat the stuffing out of an opponent. You attempt to Trip a target, then your retainer makes a melee Strike against the same target. If you roll a success on your Trip attempt, it becomes a critical success. If the target is prone when they Strike, your retainer gains a status bonus to damage for their attack equal to half their level. You must both be adjacent to the target to benefit from this ability.",
+         "traits":"Rogue, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734218295651"
+      },
+      {
+         "id":"04b3161b-a2ac-4e6c-a034-89755eeac770",
+         "name":"Two-Man Con",
+         "level":8,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>You and your retainer work together to swindle and distract your opponents. Your retainer gains the Over Here! Team-Up! benefit.<br><br><b>Team-Up! Benefit–Over Here!</b> You and your retainer work together to take advantage of an opponent. You or your retainer attempts a single Deception check and compares it to the Perception DC of a single creature. Whether or not you succeed, creatures you attempt to divert gain a +4 circumstance bonus to their Perception DCs against you and your retainer’s attempts to use Over Here! for 1 minute.<br><br><b>Critical Success</b> The target is thoroughly distracted. The creature that didn’t attempt the Deception check (either you or your retainer) gains a +2 circumstance bonus to checks to Hide, Lie, Palm an Object, and Steal against the target until the start of your next turn. Additionally, the target is off-guard against that creature’s next attack before the start of your next turn. If you were the creature attempting the Deception check, your retainer may immediately attempt to Strike or use one of the listed actions against the target.<br><b>Success</b> As critical success, but the circumstance bonus is +1.<br><b>Critical Failure</b> You don't divert the attention of the target, and they are aware you were trying to trick them.",
+         "traits":"Rogue, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734217929993"
+      },
+      {
+         "id":"d41b2544-62e1-496e-a2b1-24db3b845f70",
+         "name":"Veteran Cohort Retainers",
+         "level":16,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914",
+            "4c0ccd75-e13b-442e-83c4-9a0d3da2dad0||2ba0ee6e-fb74-42c8-973b-d0fd44c1e1d4||80363053-fe14-41a5-a39c-8ecbe02d5342||afc0eeb5-a68b-4392-8d2b-cfbe86e4ce68"
+         ],
+         "textDescription":"<b>Prerequisites</b> Bloodied Cohort Retainers<br><br>Your retainers have mastered their skills in combat. Select a second advanced profession for each of your retainers; they gain that profession in addition to their other professions. Choose the profession separately for each retainer, including any retainer that becomes a veteran after gaining this feat.",
+         "traits":"Archetype, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734216501866",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"6ebe1292-9835-429a-b4a6-878d566d0ad5",
+               "int0":1
+            },
+            {
+               "effectType":13,
+               "string0":"7b3574a1-1b54-49d2-b83b-dba85fa340f4",
+               "int0":1
+            }
+         ]
+      },
+      {
+         "id":"11275b14-1feb-4380-af09-048b04152113",
+         "name":"Veteran Retainer",
+         "level":16,
+         "reqFeats":[
+            "4c0ccd75-e13b-442e-83c4-9a0d3da2dad0||2ba0ee6e-fb74-42c8-973b-d0fd44c1e1d4||80363053-fe14-41a5-a39c-8ecbe02d5342||afc0eeb5-a68b-4392-8d2b-cfbe86e4ce68"
+         ],
+         "textDescription":"<b>Prerequisites</b> Bloodied Retainer<br><br>Your retainer has mastered their skills in combat. Select an advanced profession; your retainer gains that profession in addition to their other professions.",
+         "traits":"Uncommon, Champion, Cleric, Exemplar, Fighter, Gunslinger, Inquisitor, Investigator, Magus, Oracle, Ranger, Rogue, Sorcerer, Swashbuckler, Thaumaturge, Wizard, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734216766693",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"6ebe1292-9835-429a-b4a6-878d566d0ad5",
+               "int0":1
+            },
+            {
+               "effectType":13,
+               "string0":"7b3574a1-1b54-49d2-b83b-dba85fa340f4",
+               "int0":1
+            }
+         ]
+      },
+      {
+         "id":"4684363e-b451-4af7-ab2d-1dc0a6894a93",
+         "name":"Veteran Retainer (Homebrew Archetypes)",
+         "level":16,
+         "reqFeats":[
+            "4c0ccd75-e13b-442e-83c4-9a0d3da2dad0||2ba0ee6e-fb74-42c8-973b-d0fd44c1e1d4||80363053-fe14-41a5-a39c-8ecbe02d5342||afc0eeb5-a68b-4392-8d2b-cfbe86e4ce68"
+         ],
+         "textDescription":"<b>Prerequisites</b> Bloodied Retainer<br><br>Your retainer has mastered their skills in combat. Select an advanced profession; your retainer gains that profession in addition to their other professions.",
+         "traits":"Archetype, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734216775162",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"6ebe1292-9835-429a-b4a6-878d566d0ad5",
+               "int0":1
+            },
+            {
+               "effectType":13,
+               "string0":"7b3574a1-1b54-49d2-b83b-dba85fa340f4",
+               "int0":1
+            }
+         ]
+      },
+      {
+         "id":"5279adda-d405-48bf-bb9a-b9f4a5117133",
+         "name":"Veteran Retainer (Official Archetypes)",
+         "level":16,
+         "reqFeats":[
+            "ARCHETYPE_CITY AGENT_City Agent Dedication||ARCHETYPE_ALERTEGO_Alter Ego Dedication||ARCHETYPE_Archeologist Dedication||ARCHETYPE_Captivator Dedication||ARCHETYPE_CELEBRITY_Celebrity Dedication||ARCHETYPE_EDGEWATCH DETECTIVE_Edgewatch Detective Dedication||ARCHETYPE_Exorcist Dedication||ARCHETYPE_Firebrand Braggart Dedication||ARCHETYPE_GLADIATOR_Gladiator Dedication||ARCHETYPE_MARSHAL_Marshal Dedication||ARCHETYPE_CHIME RINGER_Chime-Ringer Dedication||ARCHETYPE_Guild Agent Dedication||ARCHETYPE_PIRATE_Pirate Dedication||ARCHETYPE_RITUALIST_Ritualist Dedication||ARCHETYPE_SENESCHAL_Seneschal Witch Dedication||ARCHETYPE_Shieldmarshal Dedication||ARCHETYPE_Sniping Duo Dedication||ARCHETYPE_STARLIT_SENTINEL_Starlit Sentinel Dedication||ARCHETYPE_VIGILANTE_Vigilante Dedication||ARCHETYPE_VIKING_Viking Dedication||ARCHETYPE_Zephyr Guard Dedication||ARCHETYPE_Hellknight Dedication||ARCHETYPE_Knight Vigilant||ARCHETYPE_Scrollmaster Dedication||ARCHETYPE_Spellmaster Dedication||ARCHETYPE_Swordmaster Dedication||ARCHETYPE_GOLDEN LEAGUE XUN_Golden League Xun Dedication",
+            "2ba0ee6e-fb74-42c8-973b-d0fd44c1e1d4||4c0ccd75-e13b-442e-83c4-9a0d3da2dad0||80363053-fe14-41a5-a39c-8ecbe02d5342||afc0eeb5-a68b-4392-8d2b-cfbe86e4ce68"
+         ],
+         "textDescription":"<b>Prerequisites</b> Bloodied Retainer<br><br>Your retainer has mastered their skills in combat. Select an advanced profession; your retainer gains that profession in addition to their other professions.",
+         "traits":"Archetype, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734216787107",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"6ebe1292-9835-429a-b4a6-878d566d0ad5",
+               "int0":1
+            },
+            {
+               "effectType":13,
+               "string0":"7b3574a1-1b54-49d2-b83b-dba85fa340f4",
+               "int0":1
+            }
+         ]
+      },
+      {
+         "id":"89535ffa-04b9-4c62-bd99-5f8c78120c4c",
+         "name":"Warden’s Bindings",
+         "level":10,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>Your retainer is skilled at managing your curse, both binding it and avoiding the worst of its effects. They gain the Bind Curse reaction, and they gain an additional reaction on their turn which can only be used to take the Bind Curse reaction. Additionally, when you Cast a Spell with the divine trait and an area that includes your retainer, your retainer improves the result of their saving throw against that spell by one degree of success.",
+         "traits":"Oracle, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734218325532",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"08467a7d-c008-4efc-9734-d124198bf4aa",
+               "int0":1
+            }
+         ]
+      },
+      {
+         "id":"22725e6d-1f9c-4114-8e6b-db8734611865",
+         "name":"Watchful Companion",
+         "level":10,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>Due to the nature of your work, your retainer is often as perceptive as you (if not better). Your retainer gains a proficiency boost to their perception. Additionally, while they are your active retainer, they grant you a +2 circumstance bonus to Perception checks made as initiative rolls.",
+         "traits":"Gunslinger, Inquisitor, Investigator, Ranger, Rogue, Thaumaturge, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734218371302"
+      },
+      {
+         "id":"57fa626a-2dc8-4e5b-9ad2-e740c049c9b6",
+         "name":"Well To-Do",
+         "textDescription":"Your family is wealthy enough to provide you a permanent butler, squire, or similar retainer. You become trained in Society (or another skill of your choice if you are already trained). You also gain the Permanent Hireling general feat.<br><br><b>Special</b> This feat gains the trait appropriate for your ancestry (human for human, goblin for goblin, etc.).",
+         "traits":"Rare, Ancestry, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734215863125",
+         "listCustomEffects":[
+            {
+               "proficiencyName":"Society",
+               "effectType":11,
+               "bonusAmount":2
+            },
+            {
+               "effectType":14,
+               "string0":"e897cbab-b4e3-4f1a-b5ad-5a238c2845a0",
+               "reference":"884aab2c-0c09-47ea-a619-6962585c13d5"
+            }
+         ]
+      },
+      {
+         "id":"9a323cae-f293-46af-a33e-be1dcce2fb68",
+         "name":"Wilderness Retainer",
+         "level":8,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer<br><br>Your retainer works alongside you in the wilderness, acting in tandem and helping track with you. Your retainer gains the Experienced Tracker and Forager skill feats. Additionally, when you Hunt Prey, your retainer gains the action's benefits (though not your hunter’s edge benefits).",
+         "traits":"Ranger, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734217950809"
+      },
+      {
+         "id":"a84a3fc0-4a75-436e-a76e-02101d1dde24",
+         "name":"Wizarding Student",
+         "level":8,
+         "reqFeats":[
+            "2c39cb29-ce30-4b2a-aef3-0852b8047914||226b7e38-b0f5-4148-ad2d-fee2541ca55c||e0167374-3dfb-4093-8552-21e228ddc8f1||04240af6-7241-4970-b2a7-15126432bb23||e897cbab-b4e3-4f1a-b5ad-5a238c2845a0"
+         ],
+         "textDescription":"<b>Prerequisites</b> a retainer; your retainer can cast spells and has the arcane tradition<br><br>You serve as a mentor for your retainer, teaching them your magic and allowing them to learn from your spellbook. Your retainer can Learn any spell that’s in your spellbook or arcane school’s curriculum. During daily preparations, select one spell that you have prepared for the day using a wizard spell slot; your retainer adds that spell to their repertoire as a signature spell until your next daily preparations.",
+         "traits":"Wizard, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734218020331"
+      }
+   ],
+   "listCustomSpecial":[
+      {
+         "name":"Adept",
+         "id":"7bc4daad-a562-4457-b46d-9c8d177f3ce0",
+         "description":"Your retainer is trained in magecraft of some form and uses it to assist you in battle.<br><b>Charismatic Adept</b> Str +0, Dex +1, Con +2, Int +1, Wis -1, Cha +2<br><b>Intelligent Adept</b> Str -1, Dex +2, Con +1, Int +2, Wis +1, Cha +0<br><b>Wise Adept</b> Str +1, Dex +0, Con +0, Int +1, Wis +2, Cha +1<br><b>Key Attributes</b> Charisma, Intelligence, or Wisdom<br><b>Proficiency Increases</b> simple weapons; spell attack modifiers; spell DCs; will.<br><b>Skill Increases</b> arcana, nature, occultism, or religion; one skill of your choice.<br><b>Special</b> Select a magic tradition: that becomes the retainer’s magic tradition. They gain two cantrips of your choice from that tradition.<br><b>Ability</b> The adept gains retainer spellcasting benefits.<br><b>Team-Up! Benefit–Spell Empowerment</b> The adept empowers the next spell you cast. Before the end of your next turn, the next time you cast a spell that requires an attack roll, you gain a +1 circumstance bonus to that roll; alternatively, if the spell would require a saving throw, you gain a +1 circumstance bonus to your spell DC for that spell. You must be within 30 feet of each other to benefit from this ability.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":6,
+         "databaseID":1,
+         "timestamp":"1734225360219"
+      },
+      {
+         "name":"Advanced Retainer Profession",
+         "id":"6ebe1292-9835-429a-b4a6-878d566d0ad5",
+         "description":"Select an advanced retainer profession.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "specialType":-1,
+         "databaseID":1,
+         "timestamp":"1734225360219",
+         "listChildIDs":[
+            "14363c14-4b13-4980-9cd2-9c6cb06fed54",
+            "487f6498-0d2c-4619-991b-91cb79c7f85e",
+            "7fcd76f7-755b-48aa-b211-b654b4bd2af8",
+            "b239a2aa-6635-4b2f-a589-7f534a1335bb",
+            "7cda128b-cd90-4e1e-9c0a-c82da0bea369",
+            "b6495619-66cb-4295-a237-c746d1150521",
+            "859f69ba-e4cd-4998-ad79-26ecb830f54f",
+            "1849a07f-507e-4ec6-9d5a-305d05a19fd2",
+            "809b4316-97fc-4556-87d4-5701f7f8e423",
+            "b90160fc-6cc3-4365-83b6-d56562ae3527",
+            "ff76efd0-007d-4be5-80d0-b0569ddead81",
+            "4a19aa6c-b213-45a5-9a36-ce20d4805c58",
+            "b9ea5ace-6501-40e2-8e44-a04895c971d3",
+            "8ad888e4-2875-462d-9d48-4c61a3c4cabf",
+            "b109d3b3-13ce-4953-a811-9138b2fcedbf",
+            "7cec6910-fdd6-43a6-99a9-e034579e1cfe",
+            "1104facb-3f51-4f2a-ae1d-82b363598a8b",
+            "ad661cef-a0cf-4c8c-b245-db98bb8be601",
+            "651398dd-4a1a-4abf-852d-aa2b4d62e1e3",
+            "d5829b65-f58f-4e4f-8bd9-1808185bae3d",
+            "1532d68b-da7b-4e5d-90fe-da13a063e6e3",
+            "15cc41c1-5a7b-466d-aff4-552e596a5a1d"
+         ]
+      },
+      {
+         "name":"Alternate Retainer Ability",
+         "id":"7b3574a1-1b54-49d2-b83b-dba85fa340f4",
+         "description":"Select an alternate retainer ability, or keep the profession's normal retainer ability.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "specialType":-1,
+         "databaseID":1,
+         "timestamp":"1734225360220",
+         "listChildIDs":[
+            "4c9127f6-6daa-405c-b396-1ced4d1236d3",
+            "b79c2038-58f3-43e2-895f-d5ea390a517c",
+            "ee0d9221-b369-4f66-8003-6b512c1f68ee",
+            "dbcb9f46-7a20-4d17-9253-6b5457658ef9",
+            "8d549948-3b38-4cbe-83ff-ad40084b0cb5",
+            "f09ecbad-b6c8-424e-9148-e39ef9b1632b"
+         ]
+      },
+      {
+         "name":"Apothecary",
+         "id":"14363c14-4b13-4980-9cd2-9c6cb06fed54",
+         "description":"Your retainer acts as a medic on the battlefield, tending to injuries as they arise.<br><b>Proficiency Increases</b> simple weapons; martial weapons; light armor; fortitude; will<br><b>Skill Increases</b> medicine; three skills of your choice<br><b>Ability</b> The apothecary gains the Battle Medicine and Stitch Flesh skill feats. If they already have both of these feats, they gain the Doctor’s Visitation archetype feat.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360220"
+      },
+      {
+         "name":"Archer",
+         "id":"487f6498-0d2c-4619-991b-91cb79c7f85e",
+         "description":"Your retainer wields longbows, shortbows, and everything in-between in the heat of battle.<br><b>Proficiency Increases</b> simple and martial bows and crossbows; light armor; medium armor; reflex; perception<br><b>Skill Increases</b> four skills of your choice<br><b>Ability</b> The archer wields bows in combat, either at close range or at a distance. They gain your choice of the Archer’s Aim, Double Shot, Crossbow Ace, Mobile Shot Stance, or Point Blank Stance feat.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360220"
+      },
+      {
+         "name":"Assassin",
+         "id":"7fcd76f7-755b-48aa-b211-b654b4bd2af8",
+         "description":"Your retainer works best when foes are off-guard, slicing weak points quickly and efficiently.<br><b>Proficiency Increases</b> simple weapons; martial weapons; light armor; medium armor; reflex; perception<br><b>Skill Increases</b> stealth; thievery; two skills of your choice.<br><b>Ability</b> The assassin gains the sneak attack class feature, except they deal 1d6 precision damage regardless of level. This sneak attack is cumulative with other sources of sneak attack gained from retainer professions.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360220"
+      },
+      {
+         "name":"Assistant",
+         "id":"b239a2aa-6635-4b2f-a589-7f534a1335bb",
+         "description":"Your retainer is less combat-capable than many, but is skilled in more mundane working matters.<br><b>Proficiency Increases</b> simple weapons; one martial weapon; light armor; will; perception<br><b>Skill Increases</b> five skills of your choice.<br><b>Special</b> The assistant is skilled in a particular area, and gains your choice of the Additional Lore or Unmistakable Lore skill feats.<br><b>Ability</b> The assistant gains retainer downtime benefits.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360220"
+      },
+      {
+         "name":"Bind Curse",
+         "id":"08467a7d-c008-4efc-9734-d124198bf4aa",
+         "description":"<b>Frequency</b> once per day<br><b>Requirements</b> Your cursebound level increases and has line of effect to you<br><br>Your retainer utilizes a series of gestures you have taught them to contain your curse. Your cursebound level does not increase. You can only benefit from this reaction once per day.",
+         "traits":"Concentrate, Divine, Manipulate, Visual, 3rd Party",
+         "src":"RRH",
+         "level":10,
+         "actions":0,
+         "databaseID":1,
+         "timestamp":"1734217098634"
+      },
+      {
+         "name":"Call Retainer",
+         "id":"0eb8094c-c242-488a-adbd-e08062d055dc",
+         "description":"You spend 1 minute calling for a different retainer, switching your active retainer for another of your retainers.",
+         "traits":"Exploration, 3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734215452923"
+      },
+      {
+         "name":"Cheer Exemplar",
+         "id":"dbba8a62-6686-4347-98af-ed11514bf7ec",
+         "description":"<b>Requirements</b> You critically hit with a weapon or unarmed attack and your retainer can see you<br><br>The retainer cheers you on, granting you temporary hit points equal to half your level, which last for one minute. This increases to your level if the critical hit was scored with one of your ikons. You can only benefit from this reaction once per turn.",
+         "traits":"Auditory, Mental, Visual, 3rd Party",
+         "src":"RRH",
+         "level":8,
+         "actions":0,
+         "databaseID":1,
+         "timestamp":"1734217043222"
+      },
+      {
+         "name":"Consult a Specialist",
+         "id":"e93fcdac-4607-418c-bf3e-60d12981c8a4",
+         "description":"<b>Frequency</b> once per minute<br><b>Requirements</b> You are about to attempt an Esoteric Lore check against a creature whose creature type is your retainer’s specialty.<br><br>Your retainer chimes in with knowledge from their specialty. You gain a circumstance bonus to the roll as if the retainer had critically succeeded a check to Aid using their specialty lore skill. ",
+         "traits":"Audityory, Concentrate, Manipulate, Visual, 3rd Party",
+         "src":"RRH",
+         "level":8,
+         "actions":0,
+         "databaseID":1,
+         "timestamp":"1734217030586"
+      },
+      {
+         "name":"Defender",
+         "id":"7cda128b-cd90-4e1e-9c0a-c82da0bea369",
+         "description":"Your retainer takes to the frontline, wearing armor and defending you against oncoming threats.<br><b>Proficiency Increases</b> simple weapons; martial weapons; light armor; medium armor; heavy armor; fortitude; perception<br><b>Skill Increases</b> athletics; two skills of your choice.<br><b>Ability</b> The defender gains one of the following benefits:<br> - They gain the Shield Block general feat. If they already have the Shield Block general feat, they instead gain the Quick Shield Block feat; this allows them to use a reaction to Shield Block, even if they haven’t been commanded during that round.<br> - They gain the armor specialization effects for medium and heavy armor. If they already have the medium and heavy armor specialization effects, they ignore the reduction to their Speed from any armor they wear.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360221"
+      },
+      {
+         "name":"Esoterist",
+         "id":"b6495619-66cb-4295-a237-c746d1150521",
+         "description":"Your retainer provides insight into enemy weaknesses.<br><b>Proficiency Increases</b> simple weapons; martial weapons; light armor; will; perception<br><b>Skill Increases</b> occultism; two skills of your choice<br><b>Special</b> The esoterist becomes trained in Esoteric Lore, as per the Thaumaturge class. They become an expert in it when they become a veteran retainer, or a master if they select esoterist for their second advanced profession.<br><b>Ability</b> The esoterist gains the Exploit Weakness action. If they already have this action, they gain access to the critical specialization effects of all weapons and unarmed attacks for which they have master proficiency.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360221",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"59dedf18-65bc-4201-b890-60ff4ed9123d"
+            }
+         ]
+      },
+      {
+         "name":"Expert",
+         "id":"d0e6a926-79d5-4c4b-a07f-7cc494713318",
+         "description":"Your retainer has a set of skills that allow them to assist you in combat.<br><b>Cunning Expert</b> Str +0, Dex +2, Con -1, Int +1, Wis +2, Cha +1<br><b>Knowledgeable Expert</b> Str -1, Dex +1, Con +0, Int +2, Wis +2, Cha +1<br><b>Sly Expert</b> Str +0, Dex +0, Con +0, Int +2, Wis +1, Cha +2<br><b>Key Attributes</b> Dexterity, Wisdom, or Intelligence<br><b>Proficiency Increases</b> simple weapons; martial weapons; light armor; will<br><b>Skill Increases</b> four skills of your choice.<br><b>Ability</b> Experts are skilled in a variety of fields. The retainer gains two 1st-level or 2nd-level skills feats that they meet the requirements for.<br><b>Team-Up! Benefit–Skilled Cooperation</b> You and the retainer both perform a skill action that requires a single action, such as Battle Medicine or Demoralize; when the expert does so, if they roll a critical failure, they get a failure instead. You do not need to perform the same skill action, but both of you need to be able to act to utilize this Team-Up! action.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":6,
+         "databaseID":1,
+         "timestamp":"1734225360221"
+      },
+      {
+         "name":"Exploit Weakness",
+         "id":"59dedf18-65bc-4201-b890-60ff4ed9123d",
+         "description":"<b>Frequency</b> once per round<br><br>The retainer scours their experiences to identify a foe’s weakness. Select a creature the retainer can see; they attempt an Esoteric Lore check against a standard DC for the creature’s level.<br><br><b>Critical Success</b> The retainer remembers key weaknesses of the creature, learning all of the creature’s resistances, weaknesses, and immunities, including the amounts of the resistances and weaknesses and any unusual weaknesses or vulnerabilities, such as what spells will pass through a golem's antimagic. Their unarmed and weapon Strikes against the creature also become magical if they weren't already, and the creature gains a weakness to your and the retainer’s unarmed and weapon Strikes equal to half your level.<br><b>Success</b> The retainer recalls an important fact about the creature, learning its highest weakness (or one of its highest weaknesses, if it has multiple with the same value) but not its other weaknesses, resistances, or immunities. Their unarmed and weapon Strikes against the creature become magical if they weren’t already.<br><b>Failure</b> The retainer remembers scant traces about the creature, enough to make their unarmed and weapon Strikes against the creature become magical if they weren’t already.<br><b>Critical Failure</b> The retainer is entirely unaware of what the creature is, and is stupefied 1 until the beginning of their next turn as they struggle to remember.",
+         "traits":"Concentrate, Manipulate, 3rd Party",
+         "src":"RRH",
+         "level":10,
+         "actions":1,
+         "databaseID":1,
+         "timestamp":"1734225360222"
+      },
+      {
+         "name":"Focus Mage",
+         "id":"859f69ba-e4cd-4998-ad79-26ecb830f54f",
+         "description":"As opposed to (or perhaps in tandem with) standard spellcasting, your retainer holds a focus spell in their arsenal.<br><b>Proficiency Increases</b> simple weapons; martial weapons; light armor; medium armor; spell attack modifiers; spell DCs; will<br><b>Skill Increases</b> arcana, nature, occultism, or religion; one skill of your choice<br><b>Special</b> If the focus mage does not have a magic tradition, select one: that becomes the retainer’s magic tradition. They gain one cantrip of your choice from that tradition. If their Key Attribute is not Charisma, Intelligence, or Wisdom, select one of those attributes to become the key attribute for their spells.<br><b>Ability</b> Depending on their magic tradition, the focus mage gains a focus spell as chosen below. This grants them a focus pool of 1 Focus Point. Their focus pool refills as normal during daily preparations, and they can regain 1 Focus Point by spending 10 minutes using the Refocus activity in a manner determined by their magic tradition.<br>- <b>Arcane</b> Select an arcane school from the wizard class; they gain the initial school spell for that school. If they already have the initial spell for their school, they instead gain the advanced school spell for their school. They can refocus by practicing their magic or performing arcane research.<br>- <b>Divine</b> Select a domain; they gain the initial domain spell for that domain. If they already have the initial domain spell for one of their domains, they instead gain the advanced domain spell for that domain. They can refocus by praying to their deity or performing service toward their causes.<br>- <b>Occult</b> Select a conscious mind from the psychic class; they gain the surface psi cantrip for that conscious mind, and can amp it as if they were a psychic. If they already have the surface psi cantrip for that conscious mind, they gain the deeper psi cantrip instead. They can refocus by exploring their mind, either to meditation, self-reflection, or talking with another person.<br>- <b>Primal</b> Select a druidic order; they gain the order spell for that druidic order. They can refocus by communing with local nature spirits or tending to the wilderness. If they already have a druid order spell, they can select a different druidic order and gain its order spell.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360222"
+      },
+      {
+         "name":"Gadgeteer",
+         "id":"1849a07f-507e-4ec6-9d5a-305d05a19fd2",
+         "description":"Your retainer produces strange but helpful gadgets to aid you in combat.<br><b>Proficiency Increases</b> simple weapons; martial weapons; light armor; medium armor; fortitude; will<br><b>Skill Increases</b> crafting, three skills of your choice<br><b>Ability</b> The gadgeteer gains the Gadget Specialist inventor feat. If they already have this feat, they gain your choice of the Contingency Gadgets or Ubiquitous Gadgets inventor feat.",
+         "traits":"Uncommon, 3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360222"
+      },
+      {
+         "name":"General Talent: Bloodied",
+         "id":"ee0d9221-b369-4f66-8003-6b512c1f68ee",
+         "description":"The retainer has trained in a particular field. Select one 7th-level or lower general feat and one 7th-level or lower skill feat; they gain those feats. They must meet the requirements for the chosen feats.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360222"
+      },
+      {
+         "name":"Glorious Wave",
+         "id":"86b70317-d4b1-42cb-9393-f444777e9662",
+         "description":"<b>Frequency</b> once per day<br><b>Requirements</b> The retainer is carrying your banner<br><br>The wave of the banner inspires your allies to action. For the next minute, all allied creatures within a 30-foot emanation of your retainer gain a +1 status bonus to attack and damage rolls.",
+         "traits":"Aura, Flourish, Manipulate, Mental, Visual, 3rd Party",
+         "src":"RRH",
+         "level":12,
+         "actions":2,
+         "databaseID":1,
+         "timestamp":"1734217137202"
+      },
+      {
+         "name":"Grand Risen: Veteran",
+         "id":"f09ecbad-b6c8-424e-9148-e39ef9b1632b",
+         "description":"Your retainer has become a truly powerful undead, such as a Lich. Select a 12th-level or lower Dedication feat that grants the basic undead benefits; your retainer gains that feat. They must meet the requirements for the chosen feat.",
+         "traits":"Rare, 3rd Party",
+         "src":"RRH",
+         "level":16,
+         "databaseID":1,
+         "timestamp":"1734225360222"
+      },
+      {
+         "name":"Greater Risen: Bloodied",
+         "id":"dbcb9f46-7a20-4d17-9253-6b5457658ef9",
+         "description":"Your retainer has risen as a more powerful form of undead, such as a Graveknight or Vassalich. Select an 8th-level or lower Dedication feat that grants the basic undead benefits; your retainer gains that feat. They must meet the requirements for the chosen feat.",
+         "traits":"Rare, 3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360222"
+      },
+      {
+         "name":"Hireling",
+         "id":"764accbd-0b5f-4a7b-b30d-26a46487eead",
+         "description":"Your retainer specializes in social and non-combat situations, often speaking on your behalf and providing advice.<br><b>Aristocratic Hireling</b> Str +1, Dex +2, Con +1, Int +0, Wis -1, Cha +2<br><b>Advisor Hireling</b> Str -1, Dex +1, Con +0, Int +2, Wis +2, Cha +1<br><b>Craftsman Hireling</b> Str +1, Dex +0, Con +2, Int +2, Wis +1, Cha -1<br><b>Mercantile Hireling</b> Str +0, Dex +1, Con -1, Int +2, Wis +1, Cha +2<br><b>Key Attributes</b> Charisma, Intelligence, or Wisdom<br><b>Proficiency Increases</b> simple weapons; light armor; perception<br><b>Skill Increases</b> deception, diplomacy, intimidation, or performance; society; two skills of your choice<br><b>Special</b> Hireling retainers can assist you in certain downtime activities. The hireling gains retainer downtime benefits.<br>Ability Hirelings are skilled in a particular field. They gain the Additional Lore skill feat and one of the following benefits:<br> - Proficiency in one martial weapon of your choice.<br> - Three common or uncommon languages that they have access to.<br> - One 1st-level or 2nd-level skill feat they meet the requirements for.<br><b>Team-Up! Benefit–In My Opinion</b> The retainer prepares to Aid. If they would roll a failure or success on the check to aid, improve the result to one degree of success better.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":6,
+         "databaseID":1,
+         "timestamp":"1734225360223"
+      },
+      {
+         "name":"Infuse Spellshape",
+         "id":"1e946ff8-e1ee-4007-992b-01fdf814874c",
+         "description":"<b>Requirements</b> The retainer has been Commanded this turn<br><br>Your retainer channels a spellshape into your next spell, infusing it with its effects. Your retainer uses a 1-action or free action spellshape, but the effect applies to the next action you use before the end of your next turn instead, following all other requirements. You and your retainer must be within 15 feet of each other to benefit from this ability.",
+         "traits":"Concentrate, Magical, Manipulate, 3rd Party",
+         "src":"RRH",
+         "level":12,
+         "actions":1,
+         "databaseID":1,
+         "timestamp":"1734217174157"
+      },
+      {
+         "name":"Inspector",
+         "id":"809b4316-97fc-4556-87d4-5701f7f8e423",
+         "description":"Your retainer aids you in investigations, asking questions and granting insight into the problem at hand. A retainer cannot select this profession more than once.<br><b>Prerequisites</b> You have the Pursue a Lead activity.<br><b>Proficiency Increases</b> simple weapons; martial weapons; light armor; reflex; perception<br><b>Skill Increases</b> society; four skills of your choice<br><b>Special</b> If you have the Clue In reaction, you can use it once per minute so long as you are targeting the inspector. This usage limit is counted separately from using it on other creatures.<br><b>Ability</b> The inspector adds to your pointed questions and can often provide thoughts that change your perspective. They gain the Look at This! action and the Why’s That? reaction, and gains an additional reaction on their turn which can only be used to take the Why’s That? reaction.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360223",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"f465f07d-bb5b-4996-82d0-f8e76f7d4fe7"
+            },
+            {
+               "effectType":13,
+               "string0":"ae9c92ba-fdd1-4edc-a9cc-0e30a369f22a"
+            }
+         ]
+      },
+      {
+         "name":"Kinetic Ace",
+         "id":"b90160fc-6cc3-4365-83b6-d56562ae3527",
+         "description":"Your retainer bends an element, utilizing it both in and out of battle.<br><b>Proficiency Increases</b> simple weapons; light armor; fortitude; reflex<br><b>Skill Increases</b> nature; three skills of your choice<br><b>Special</b> If the kinetic ace doesn’t have a kinetic element, select an element from the Kineticist class to become their kinetic element. They gain a kinetic aura and the Channel Elements action, as well as the Elemental Blast action. The kinetic ace uses their profession DC for their impulse attacks and DCs. The kinetic ace’s impulse attacks do not gain additional damage dice unless they gain the kinetic ace profession a second time.<br><b>Ability</b> The kinetic ace gains the Base Kinesis action, as well as a 1st-level or 2nd-level kineticist feat with the impulse trait. If they already have both of these, they gain the Expand the Portal option from the Gate’s Threshold kineticist feature. They can only select a feat of 16th level or lower when they do so.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360223"
+      },
+      {
+         "name":"Lay-Mage",
+         "id":"ff76efd0-007d-4be5-80d0-b0569ddead81",
+         "description":"Your retainer channels lesser magic, focusing on utilizing utility spells to assist. A retainer cannot select this profession more than once.<br><b>Proficiency Increases</b> simple weapons, light armor, medium armor, spell attack modifiers; spell DCs; reflex, will<br><b>Skill Increases</b> arcana, nature, occultism, or religion; two skills of your choice<br><b>Special</b> If the lay-mage does not have a magic tradition, select one: that becomes the retainer’s magic tradition. If their Key Attribute is not Charisma, Intelligence, or Wisdom, select one of those attributes to become the key attribute for their spells.<br><b>Ability</b> The lay-mage gains three 1st-rank spell slots. Depending on their magic tradition, the lay-mage adds a list of spells to their repertoire. Unlike normal for retainers with spellcasting, these spells are not signature spells.<br> - <b>Arcane</b> <i>alarm, carryall, create water, grease, illusory object, lock, mindlink, temporary tool</i><br> - <b>Divine</b> <i>bane, bless, cleanse cuisine, create water, detect poison, infuse vitality, mending, protection, sanctuary</i><br> - <b>Occult</b> <i>bane, bless, breadcrumbs, imprint message, liberating command, mindlink, object reading, thoughtful gift</i><br> - <b>Primal</b> <i>cleanse cuisine, foraging friends, grease, mud pit, protector tree, vanishing tracks, verdant sprout, weave wood</i>",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360224"
+      },
+      {
+         "name":"Look at This!",
+         "id":"f465f07d-bb5b-4996-82d0-f8e76f7d4fe7",
+         "description":"<b>Frequency</b> once per 10 minutes<br><br>The retainer spends one minute investigating a location, possibly noticing something that you missed. The GM then determines one of the following benefits:<br> - The retainer notices an out-of-the-ordinary clue that you didn’t pick up on, granting you the benefits of the That’s Odd feat.<br> - The retainer notices something you missed about a clue you are aware of, or reaffirms the relevance of a clue you dismissed.<br> - The retainer confirms that there are no other clues in the location.",
+         "traits":"Auditory, Concentrate, Manipulate, 3rd Party",
+         "src":"RRH",
+         "level":10,
+         "actions":1,
+         "databaseID":1,
+         "timestamp":"1734225360224"
+      },
+      {
+         "name":"Martial Artist",
+         "id":"4a19aa6c-b213-45a5-9a36-ce20d4805c58",
+         "description":"Your retainer is skilled in unarmed combat.<br><b>Proficiency Increases</b> fortitude; reflex; will; perception.<br><b>Skill Increases</b> athletics; three skills of your choice<br><b>Special</b> The martial artist gains the powerful fist and mystic strikes monk features. If they already have the powerful fist feature, they gain a 1st-level monk feat of your choice. That feat must have the stance trait.<br><b>Ability</b> The martial artist gains the flurry of blows monk features. If they already have this feature, they gain critical specialization effects of unarmed strikes in the brawling group and a 1st-level or 2nd-level monk feat that they meet the prerequisites for.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360224"
+      },
+      {
+         "name":"Mercenary",
+         "id":"b172c00d-7d1a-469e-b813-ee9c26e5e51b",
+         "description":"Your retainer is skilled in more subtle manners, preferring to strike when a foe is unaware.<br><b>Deft Mercenary</b> Str -1, Dex +2, Con +0, Int +2, Wis +1, Cha +1<br><b>Streetwise Mercenary</b> Str +0, Dex +2, Con +1, Int +0, Wis +2, Cha +0<br><b>Thug Mercenary</b> Str +2, Dex +1, Con +2, Int -1, Wis +0, Cha +1<br><b>Key Attributes</b> Charisma, Dexterity, or Strength<br><b>Proficiency Increases</b> simple weapons; martial weapons; light armor; medium armor; reflex<br><b>Skill Increases</b> stealth or thievery; two skills of your choice.<br><b>Ability</b> The mercenary can take advantage of enemy weak points with ease. They gain the sneak attack class feature, except they deal 1d6 precision damage regardless of level. This sneak attack is cumulative with other sources of sneak attack gained from retainer professions. A mercenary can sneak attack with any weapon. This benefit doesn't apply to a simple weapon with a damage die greater than d8 or a martial or advanced weapon with a damage die greater than d6. (Apply any abilities that alter the damage die size first.)<br><b>Team-Up! Benefit–Tactical Strike</b> The retainer Strikes. If the Strike hits, the target is off-guard against your next attack before the start of your next turn.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":6,
+         "databaseID":1,
+         "timestamp":"1734225360224"
+      },
+      {
+         "name":"Novice Retainer Profession",
+         "id":"1c43d1ba-8150-4a20-b960-c0679dfc05c1",
+         "description":"Select a novice profession for your retainer.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":6,
+         "specialType":-1,
+         "databaseID":1,
+         "timestamp":"1734225360225",
+         "listChildIDs":[
+            "7bc4daad-a562-4457-b46d-9c8d177f3ce0",
+            "d0e6a926-79d5-4c4b-a07f-7cc494713318",
+            "764accbd-0b5f-4a7b-b30d-26a46487eead",
+            "b172c00d-7d1a-469e-b813-ee9c26e5e51b",
+            "f27c4123-0d52-4dc7-ab8e-86cb19998c99"
+         ]
+      },
+      {
+         "name":"Performer",
+         "id":"b9ea5ace-6501-40e2-8e44-a04895c971d3",
+         "description":"Your retainer inspires allies through performance.<br><b>Prerequisites</b> occult spellcasting or no spellcasting<br><b>Proficiency Increases</b> simple weapons; martial weapons; light armor; spell attack modifiers; spell DCs; will; perception<br><b>Skill Increases</b> occultism; performance; three skills of your choice<br><b>Special</b> The performer's magic tradition becomes occult. They gain one occult cantrip of your choice. If their Key Attribute is not Charisma and they don’t have a key attribute for their spells, Charisma becomes the key attribute for their spells.<br><b>Ability</b> The performer gains the <i>uplifting overture</i> and <i>triple time</i> composition cantrips. If they already have these cantrips, they gain your choice of the <i>courageous anthem</i> or <i>rallying anthem</i> composition cantrip.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360225"
+      },
+      {
+         "name":"Potioneer",
+         "id":"8ad888e4-2875-462d-9d48-4c61a3c4cabf",
+         "description":"Your retainer has learned some alchemical capabilities, both for in and out of battle.<br><b>Proficiency Increases</b> simple weapons; alchemical bombs; light armor; medium armor; fortitude; reflex<br><b>Skill Increases</b> crafting; one skills of your choice<br><b>Special</b> The alchemist gains the Quick Alchemy action, but can only use it to Quick Vial.<br><b>Ability</b> The alchemist gains the advanced alchemy benefits, and can use them to create 2 alchemical consumables. If they already have the advanced alchemy benefits, increase the number of alchemical consumables they can create by 2.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360225"
+      },
+      {
+         "name":"Prescient Assistance: Bloodied",
+         "id":"8d549948-3b38-4cbe-83ff-ad40084b0cb5",
+         "description":"Your retainer is always ready with supplies you need. They gain the Prescient Planner and Prescient Consumable general feats.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360225"
+      },
+      {
+         "name":"Profession Ability",
+         "id":"33a88f62-c835-4167-9506-fd04125e7369",
+         "description":"The retainer doesn't exchange their profession ability for an alternate profession ability.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":6,
+         "databaseID":1,
+         "timestamp":"1734215329438"
+      },
+      {
+         "name":"Rager",
+         "id":"b109d3b3-13ce-4953-a811-9138b2fcedbf",
+         "description":"Your retainer unleashes their rage while in combat, striking with reckless fury. A retainer cannot select this profession more than once.<br><b>Proficiency Increases</b> simple weapons; martial weapons; light armor; medium armor; fortitude; will<br><b>Skill Increases</b> athletics; three skills of your choice.<br><b>Special</b> The rager gains a +5-foot status bonus to their speed.<br><b>Ability</b> The rager gains the Rage action, as well as the Quick-Tempered free action. When they become a veteran retainer, the damage bonus from their Rage increases to 6.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360225"
+      },
+      {
+         "name":"Ready Chamber",
+         "id":"7b5caf87-f7a2-4725-940a-5031c24d3b65",
+         "description":"<b>Requirements</b> the retainer was Commanded this round<br><br>The retainer prepares for action with a quick reload. The retainer Interacts to reload.",
+         "traits":"Flourish, Manipulate, 3rd Party",
+         "src":"RRH",
+         "level":10,
+         "actions":-1,
+         "databaseID":1,
+         "timestamp":"1734225360226"
+      },
+      {
+         "name":"Risen: Novice",
+         "id":"b79c2038-58f3-43e2-895f-d5ea390a517c",
+         "description":"The retainer is some form of intelligent undead, such as a Ghoul or Mummy. Select a 2nd-level Dedication feat that grants the basic undead benefits; the retainer gains that feat. They must meet the requirements for the chosen feat.",
+         "traits":"Rare, 3rd Party",
+         "src":"RRH",
+         "level":6,
+         "databaseID":1,
+         "timestamp":"1734225360226"
+      },
+      {
+         "name":"Soldier",
+         "id":"7cec6910-fdd6-43a6-99a9-e034579e1cfe",
+         "description":"Your retainer fights with martial superiority.<br><b>Proficiency Increases</b> simple weapons, martial weapons, light armor, medium armor, heavy armor; fortitude, reflex<br><b>Skill Increases</b> acrobatics or athletics; three skills of your choice<br><b>Special</b> Select one advanced weapon; the soldier gains a proficiency boost for that weapon.<br><b>Ability</b> The warrior gains the Reactive Strike reaction. If they already have that reaction, they gain the Combat Flexibility fighter feature.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360226"
+      },
+      {
+         "name":"Specialist",
+         "id":"1104facb-3f51-4f2a-ae1d-82b363598a8b",
+         "description":"Your retainer reinforces their skills through practice and training.<br><b>Proficiency Increases</b> simple weapons; martial weapons; light armor; will; perception<br><b>Skill Increases</b> five skills of your choice.<br><b>Ability</b> The specialist gains two 6th-level or lower skill feats that they meet the requirements for. If they select this profession a second time, they gain two 14th-level or lower skill feats that they meet the requirements for.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360226"
+      },
+      {
+         "name":"Spellblade",
+         "id":"ad661cef-a0cf-4c8c-b245-db98bb8be601",
+         "description":"Your retainer can channel their magic into a powerful arcane strike. A retainer cannot select this profession more than once.<br><b>Prerequisites</b> arcane spellcasting or no spellcasting<br><b>Proficiency Increases</b> simple weapons; martial weapons; light armor; medium armor; spell attack modifiers; spell DCs; fortitude; will<br><b>Skill Increases</b> arcana; three skills of your choice<br><b>Special</b> The spellblade’s magic tradition becomes arcane. They gain one arcane cantrip of your choice. If their Key Attribute is not Intelligence and they don’t have a key attribute for their spells, Intelligence becomes the key attribute for their spells.<br><b>Ability</b> The spellblade gains one arcane cantrip of your choice, as well as the Spellstrike activity. They can only recharge it as an activity that takes 1 minute. This restriction applies even if they gain another ability that recharges Spellstrike.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360227"
+      },
+      {
+         "name":"Spellcaster",
+         "id":"651398dd-4a1a-4abf-852d-aa2b4d62e1e3",
+         "description":"Your retainer calls upon magic to aid you in combat.<br><b>Proficiency Increases</b> simple weapons; light armor; spell attack modifiers; spell DCs; will; perception<br><b>Skill Increases</b> arcana, nature, occultism, or religion; Three skills of your choice.<br><b>Special</b> If the spellcaster does not have a magic tradition, select one: that becomes the retainer’s magic tradition. If their Key Attribute is not Charisma, Intelligence, or Wisdom and they don’t have a key attribute for their spells, select one of those attributes to become the key attribute for their spells. Your retainer gains one cantrip of your choice from their tradition. <br><b>Ability</b> The spellcaster gains retainer spellcasting benefits.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360227"
+      },
+      {
+         "name":"Strong Heritage: Novice",
+         "id":"4c9127f6-6daa-405c-b396-1ced4d1236d3",
+         "description":"The retainer has a strong tie to their heritage, for either cultural or physical reasons. Select a heritage for the retainer; this could be one from their ancestry or a common or uncommon versatile heritage. They gain the benefits of that heritage, as well as a 1st-level ancestry feat of your choice that they meet the requirements for.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":6,
+         "databaseID":1,
+         "timestamp":"1734225360227"
+      },
+      {
+         "name":"Team-Up!",
+         "id":"6e995cd4-1d5c-4b77-9796-b594c03bdaa3",
+         "description":"<b>Requirements</b> The creature is a retainer and has been Commanded this turn<br><br>You and your retainer work together. You gain the benefits of one of the retainer’s Team-Up! Benefits. If the retainer uses the Team-Up! action, the only other actions they can use on this turn are basic move actions to get into position to take advantage of the Team-Up! Benefits; if they have already used any other actions this turn, they can’t Team-Up!.",
+         "traits":"Flourish, 3rd Party",
+         "src":"RRH",
+         "actions":1,
+         "databaseID":1,
+         "timestamp":"1734225360227"
+      },
+      {
+         "name":"Templar",
+         "id":"d5829b65-f58f-4e4f-8bd9-1808185bae3d",
+         "description":"Your retainer calls upon martial power and divine spellcasting to aid you in battle. A retainer cannot select this profession more than once.<br><b>Prerequisites</b> the retainer worships a deity; divine spellcasting or no spellcasting<br><b>Proficiency Increases</b> simple weapons, martial weapons, light armor, medium armor, heavy armor; spell attack modifiers; spell DCs; will<br><b>Skill Increases</b> religion; one skill of your choice<br><b>Special</b> The templar’s magic tradition becomes divine. If their Key Attribute is not Charisma and they don’t have a key attribute for their spells, Charisma becomes the key attribute for their spells.<br><b>Ability</b> Select <i>shields of the spirit</i>, a spell based on the templar’s deity’s divine font (<i>lay on hands</i> if their deity allows <i>heal</i>, <i>touch of the void</i> if their deity allows <i>harm</i>), or another 1st-rank champion devotion spell you have access to. The templar gains that focus spell as a divine spell. This grants them a focus pool of 1 Focus Point. Their focus pool refills as normal during daily preparations, and they can regain 1 Focus Point by spending 10 minutes using the Refocus activity by praying to their deity or performing service toward their causes.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360227"
+      },
+      {
+         "name":"Template",
+         "id":"2cc120e3-e170-43ab-820c-e82764d5be52",
+         "description":"desc",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "databaseID":1,
+         "timestamp":"1734225360227"
+      },
+      {
+         "name":"Triggerman",
+         "id":"1532d68b-da7b-4e5d-90fe-da13a063e6e3",
+         "description":"Your retainer wields crossbows or firearms as their primary weapon in combat. A retainer cannot select this profession more than once.<br><b>Proficiency Increases</b> simple and martial firearms and crossbows; light armor; medium armor; reflex; perception<br><b>Skill Increases</b> four skills of your choice<br><b>Ability</b> The triggerman is skilled in utilizing firearms in combat. Select a gunslinger’s way. The triggerman gains the initial deed of that way, as well as the Ready Chamber free action. If an initial deed triggers upon rolling initiative, the retainer may use it when you roll initiative.",
+         "traits":"Uncommon, 3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360227",
+         "listCustomEffects":[
+            {
+               "effectType":13,
+               "string0":"7b5caf87-f7a2-4725-940a-5031c24d3b65"
+            }
+         ]
+      },
+      {
+         "name":"Untamed",
+         "id":"15cc41c1-5a7b-466d-aff4-552e596a5a1d",
+         "description":"Your retainer channels primal magic to transform into animalistic forms in combat.<br><b>Prerequisites</b> primal spellcasting or no spellcasting<br><b>Proficiency Increases</b> simple weapons; light armor; spell attack modifiers; spell DCs; fortitude; reflex<br><b>Skill Increases</b> nature; three skills of your choice<br><b>Special</b> The untamed’s magic tradition becomes primal. If their Key Attribute is not Wisdom and they don’t have a key attribute for their spells, Wisdom becomes the key attribute for their spells.<br><b>Ability</b> The untamed gains the <i>untamed form</i> focus spell. This grants them a focus pool of 1 Focus Point. Their focus pool refills as normal during daily preparations, and they can regain 1 Focus Point by spending 10 minutes using the Refocus activity by communing with local nature spirits. Additionally, they gain the Form Control druid feat. If they already have both of these, they gain two of the following feats of your choice: Elemental Shape, Ferocious Shape, Insect Shape, Monstrosity Shape, Plant Shape, or Soaring Shape. ",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":10,
+         "databaseID":1,
+         "timestamp":"1734225360227"
+      },
+      {
+         "name":"Warrior",
+         "id":"f27c4123-0d52-4dc7-ab8e-86cb19998c99",
+         "description":"Your retainer is a capable fighter, often fighting alongside you in battle.<br><b>Brutal Warrior</b> Str +2, Dex +1, Con +1, Int -1, Wis +0, Cha +2<br><b>Nimble Warrior</b> Str +0, Dex +2, Con +0, Int +1, Wis +2, Cha +0<br><b>Resilient Warrior</b> Str +2, Dex -1, Con +2, Int +0, Wis +1, Cha +1<br><b>Key Attributes</b> Strength, Dexterity, or Constitution<br><b>Proficiency Increases</b> simple weapons; martial weapons; light armor; medium armor; heavy armor; fortitude<br><b>Skill Increases</b> athletics or acrobatics; one skill of your choice.<br><b>Special</b> Select one of the following benefits:<br> - Select one advanced weapon; the retainer gains a proficiency boost for that weapon. Alternatively, you can have them gain the powerful fist monk feature.<br> - They gain the Shield Block general feat.<br><b>Ability</b> The warrior is skilled in combat, and gains your choice of the Double Slice, Sudden Charge, or Vicious Swing feat.<br><b>Team-Up! Benefit–Warrior’s Assault</b> The retainer Strikes. If the Strike hits, the retainer may attempt to Disarm, Grapple, Shove, or Trip the target, applying multiple attack penalty as normal; alternatively, they may Step or Stride.",
+         "traits":"3rd Party",
+         "src":"RRH",
+         "level":6,
+         "databaseID":1,
+         "timestamp":"1734225360227"
+      },
+      {
+         "name":"Why's That?",
+         "id":"ae9c92ba-fdd1-4edc-a9cc-0e30a369f22a",
+         "description":"<b>Frequency</b> once per 10 minutes<br><b>Trigger</b> You are about to roll a Perception or skill check to investigate an active lead<br><br>The retainer provides you a momentary flash of insight. Roll twice and take the higher result.",
+         "traits":"Auditory, Concentrate, Fortune, 3rd Party",
+         "src":"RRH",
+         "level":10,
+         "actions":0,
+         "databaseID":1,
+         "timestamp":"1734225360228"
+      }
+   ]
+}
